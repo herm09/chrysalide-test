@@ -32,30 +32,44 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 		
+		<section class="section1">
 
-		<h1 class="Actualites">Nos actualités</h1>
+			<h1 class="Actualites">Nos actualités</h1>
 
-		<div class="actus">
+			<div class="actus">
 
-			<div class="home">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/maison.png" alt="maison" class="maison">
-				<p>Notre maison a été pensée pour acceuillir au mieux !</p>
+				<div class="home">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/maison.png" alt="maison" class="maison">
+					<p>Notre maison a été pensée pour acceuillir au mieux !</p>
+				</div>
+
+				<div class="humans">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/humains_heureux.png" alt="Hommes heureux" class="hommesHeureux">
+					<p>Maison Chrysalide est aussi un endroit de rencontres et <br> de joie.</p>
+				</div>
+
+				<div class="fun">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Happy" class="Happy">
+					<p>Nous sommes à votre écoute et disponibles.</p>
+				</div>
+
 			</div>
 
-			<div class="humans">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/humains_heureux.png" alt="Hommes heureux" class="hommesHeureux">
-				<p>Maison Chrysalide est aussi un endroit de rencontres et <br> de joie.</p>
-			</div>
+		</section>
 
-			<div class="fun">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Happy" class="Happy">
-				<p>Nous sommes à votre écoute et disponibles.</p>
-			</div>
 
-		</div>
+		<section class="section2">
+
+			<h1 class="Inclusivite">Inclusivité</h1>
+
+			<p>Une <strong>maison inclusive </strong>, où des personnes handicapées ainsi que des adultes valides vivent en communauté
+		et partagent le projet de "vivre ensemble" fondé sur des relations humaines, amicales et fraternelles.</p>
+
+
+		</section>
+		
 			
 
-		<h1 class="Inclusivite">Inclusivité</h1>
 			
 
 
