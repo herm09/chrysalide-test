@@ -47,16 +47,19 @@ get_header();
 				<p>Maison Chrysalide est aussi un endroit de rencontres et <br> de joie.</p>
 			</div>
 
-			<div class="Fun">
+			<div class="fun">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Happy" class="Happy">
 				<p>Nous sommes à votre écoute et disponibles.</p>
 			</div>
-			
-
-			
-
 
 		</div>
+			
+
+		<h1 class="Inclusivite">Inclusivité</h1>
+			
+
+
+	
 
 	</main><!-- #main -->
 
