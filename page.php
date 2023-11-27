@@ -37,11 +37,11 @@ get_header();
 
 		<div class="actus">
 
-			<img src="" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/maison.png" alt="maison" class="maison">
 
-			<img src="" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/humains_heureux.png" alt="Hommes heureux" class="hommesHeureux">
 
-			<img src="" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/autistes.youpi.png" alt="Happy" class="Happy">
 
 		</div>
 
