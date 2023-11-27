@@ -66,6 +66,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+ 
+ @import url('css/header.css');
 
  body {
 	background-color: rgb(246, 246, 246);
