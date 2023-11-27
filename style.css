@@ -68,6 +68,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  */
  
  @import url('css/header.css');
+ @import url('css/page.css');
+
+ /* * {
+	outline: 1px solid red !important;
+  } */
 
  body {
 	background-color: rgb(246, 246, 246);
