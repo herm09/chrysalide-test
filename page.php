@@ -62,8 +62,10 @@ get_header();
 
 			<h1 class="Inclusivite">Inclusivité</h1>
 
-			<p>Une <strong>maison inclusive </strong>, où des personnes handicapées ainsi que des adultes valides vivent en communauté
-		et partagent le projet de "vivre ensemble" fondé sur des relations humaines, amicales et fraternelles.</p>
+			<p class=inclus>Une maison inclusive, où des personnes handicapées ainsi que des adultes valides vivent en communauté
+			et partagent le projet de "vivre ensemble" fondé sur des relations humaines, amicales et fraternelles. <br> <br>
+			Un lieu de vie répondant aux attentes et aux besoins des personnes handicapées, où chacin se sent bien et peut déployer
+			ses compétences au service de tous, et où l'aidé peut devenir aidant.</p>
 
 
 		</section>

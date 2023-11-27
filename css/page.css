@@ -22,6 +22,11 @@
     color: rgb(90, 87, 87);
 }
 
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .Actualites {
     display: flex;
     justify-content: center;
@@ -29,13 +34,9 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: #385aa2;
     font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-}
-
-.section1 {
-    display: flex;
-    flex-direction: column;
 }
 
 .actus {
@@ -70,6 +71,13 @@
     border-radius: 0.3em;
 }
 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .Inclusivite {
     display: flex;
     justify-content: center;
@@ -77,6 +85,17 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: #385aa2;
     font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+.section2 p {
+    display: flex;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(154, 177, 227);
+    width: 70%;
+    border-radius: 0.3em;
 }
