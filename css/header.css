@@ -49,3 +49,7 @@
 .menu a:hover {
     background-size: 100% 2px; /*width:100% height:2px*/
 }
+
+.entry-title {
+    opacity: 0;
+}

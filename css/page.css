@@ -21,3 +21,34 @@
 .carousel-slider-nav-icon {
     color: rgb(90, 87, 87);
 }
+
+.Actualites {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #385aa2;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.actus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.actus img {
+    width: 85%;
+    height: 70%;
+}
+
+.actus p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #385aa2;
+    font-weight: bold;
+}

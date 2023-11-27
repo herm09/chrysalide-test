@@ -33,15 +33,28 @@ get_header();
 		?>
 		
 
-		<h1>Nos actualités</h1>
+		<h1 class="Actualites">Nos actualités</h1>
 
 		<div class="actus">
 
-			<img src="<?php echo get_template_directory_uri(); ?>/img/maison.png" alt="maison" class="maison">
+			<div class="home">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/maison.png" alt="maison" class="maison">
+				<p>Notre maison a été pensée pour acceuillir au mieux !</p>
+			</div>
 
-			<img src="<?php echo get_template_directory_uri(); ?>/img/humains_heureux.png" alt="Hommes heureux" class="hommesHeureux">
+			<div class="humans">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/humains_heureux.png" alt="Hommes heureux" class="hommesHeureux">
+				<p>Maison Chrysalide est aussi un endroit de rencontres et <br> de joie.</p>
+			</div>
 
-			<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Happy" class="Happy">
+			<div class="Fun">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Happy" class="Happy">
+				<p>Nous sommes à votre écoute et disponibles.</p>
+			</div>
+			
+
+			
+
 
 		</div>
 
