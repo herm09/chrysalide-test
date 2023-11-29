@@ -62,8 +62,13 @@ get_header();
 
 			<h1 class="titre2">Inclusivité</h1>
 
+			
+
 			<div class="inclusivite">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/inclus.png" alt="maison" class="people">
+
+				<div class="inclusImg">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/inclus.png" alt="maison" class="people">
+				</div>
 
 				<p class=inclus>Une maison inclusive, où des personnes handicapées ainsi que des adultes valides vivent en communauté
 				et partagent le projet de "vivre ensemble" fondé sur des relations humaines, amicales et fraternelles. <br> <br>
@@ -76,7 +81,30 @@ get_header();
 		</section>
 		
 			
+		<section class="section3">
 
+			<h1 class="titre3">Technologie</h1>
+
+			<div>
+
+				<div>
+
+
+				</div>
+
+				<div>
+
+
+				</div>
+
+				<div>
+
+
+				</div>
+
+			</div>
+
+		</section>
 			
 
 
