@@ -31,8 +31,38 @@ get_header();
 			
 		endwhile; // End of the loop.
 		?>
+
+
+		<section class="valeurs">
+
+			<h1>Nos valeurs</h1>
+
+			<div class="divValeurs">
+
+				<div class="Inclus">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Inclusivité" class="valeursInclus">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores molestias corrupti 
+						blanditiis deserunt magni ipsa veritatis laborum voluptatum pariatur aperiam aspernatur 
+						molestiae neque sit consequuntur, facilis ratione hic ipsum? Tempore.</p>
+				</div>
+				<div class="Eco">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/plantes.png" alt="Ecologie" class="valeursEco">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nulla iure pariatur 
+						eius delectus ex est illum perspiciatis inventore harum eum rerum architecto quibusdam, 
+						sint numquam obcaecati repudiandae iusto esse!</p>
+				</div>
+				<div class="Techno">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/techno.png" alt="Technologie" class="valeursTechno">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore soluta blanditiis porro 
+						voluptatum, odit cupiditate, ea quidem libero ratione assumenda expedita, temporibus 
+						pariatur inventore sapiente similique. Enim, voluptates ipsum. Beatae!</p>
+				</div>
+
+			</div>
+
+		</section>
 		
-		<section class="section1">
+		<section class="section2">
 
 			<h1 class="titre1">Nos actualités</h1>
 
@@ -58,7 +88,7 @@ get_header();
 		</section>
 
 
-		<section class="section2">
+		<section class="section3">
 
 			<h1 class="titre2">Inclusivité</h1>
 
@@ -81,7 +111,7 @@ get_header();
 		</section>
 		
 			
-		<section class="section3">
+		<section class="section4">
 
 			<h1 class="titre3">Technologie</h1>
 
