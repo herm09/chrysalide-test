@@ -1,6 +1,5 @@
 .site-header {
 	display: flex;
-    background-color: #88a0d2;
     height: 100px;
     width: 100%;
 }
@@ -25,7 +24,6 @@
     width: 100%;
     list-style: none;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: white;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -36,11 +34,11 @@
 .menu a {
     display: flex;
     text-decoration: none;
-    color: white;
+    color: #385FC4;
     list-style: none;
     display: inline-block;
     padding-bottom: 2px; /*the space for the gradient*/
-    background: linear-gradient(white, white) center bottom; /*OR bottom right OR bottom left*/
+    background: linear-gradient(#385FC4, #385FC4) center bottom; /*OR bottom right OR bottom left*/
     background-size: 0% 2px; /*width:0% height:2px*/
     background-repeat: no-repeat; /* Don't repeat !!*/
     transition: all 0.45s;

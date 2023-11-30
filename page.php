@@ -62,6 +62,21 @@ get_header();
 
 		</section>
 		
+
+		<section class=soutiens>
+
+			<h2 class="soutiensth2">Nous avons besoin de vous !</h2>
+			<h1 class="soutiensh1">Rejoignez nous en devenant adhérant(e).</h1>
+
+			<button class="soutenir">Nous soutenir</button>
+
+		</section>
+
+
+
+
+
+
 		<section class="section2">
 
 			<h1 class="titre1">Nos actualités</h1>
