@@ -28,8 +28,8 @@
 .valeurs {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
 }
 
 .valeurs h1 {
@@ -47,14 +47,29 @@
 .divValeurs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
     margin-top: 50px;
+    justify-items: center;
+    justify-content: center;
 }
 
 .divValeurs img {
-    width: 85%;
-    height: 70%;
+    display: flex;
+    width: 70%;
+    height: 65%;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divValeurs p {
+    display: flex;
+    font-family: "Paytone One", sans-serif;
+    color: #385FC4;
+    width: 70%;
+    justify-content: center;
+    border-radius: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
