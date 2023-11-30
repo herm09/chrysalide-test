@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Paytone One", sans-serif;
     color: #385aa2;
     font-weight: bold;
     font-size: 30px;
@@ -63,7 +63,7 @@
 
 .actus p {
     display: flex;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Paytone One", sans-serif;
     color: white;
     background-color: rgb(125, 150, 203);
     width: 70%;
@@ -98,7 +98,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Paytone One", sans-serif;
     color: #385aa2;
     font-weight: bold;
     font-size: 30px;
@@ -130,7 +130,7 @@
 
 .inclusivite p {
     flex-grow: 1; /* Permet au texte de s'étendre sur toute la hauteur disponible */
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Paytone One", sans-serif;
     color: white;
     padding: 15px;
     border-radius: 0.3em;
@@ -152,7 +152,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Paytone One", sans-serif;
     color: #385aa2;
     font-weight: bold;
     font-size: 30px;
