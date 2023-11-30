@@ -65,10 +65,10 @@ get_header();
 
 		<section class=soutiens>
 
-			<h2 class="soutiensth2">Nous avons besoin de vous !</h2>
+			<h2 class="soutiensh2">Nous avons besoin de vous !</h2>
 			<h1 class="soutiensh1">Rejoignez nous en devenant adhérant(e).</h1>
 
-			<button class="soutenir">Nous soutenir</button>
+			<button class="soutenir">Voir plus</button>
 
 		</section>
 
