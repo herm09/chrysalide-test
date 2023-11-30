@@ -29,13 +29,13 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .valeurs h1 {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: flex-start;
+    padding-left: 50px;
     font-family: "Paytone One", sans-serif;
     color: #385aa2;
     font-weight: bold;
@@ -53,7 +53,7 @@
 }
 
 .divValeurs img {
-    display: flex;
+    display: grid;
     width: 70%;
     height: 65%;
     border-radius: 30px;
@@ -62,7 +62,7 @@
 }
 
 .divValeurs p {
-    display: flex;
+    display: grid;
     font-family: "Paytone One", sans-serif;
     color: #385FC4;
     width: 70%;
