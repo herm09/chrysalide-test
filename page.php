@@ -35,7 +35,7 @@ get_header();
 
 		<section class="valeurs">
 
-			<h1>Nos valeurs</h1>
+			<h1>Notre concept</h1>
 
 			<div class="divValeurs">
 
