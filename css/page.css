@@ -13,26 +13,26 @@
 .owl-stage-outer {
     overflow: hidden;
     position: relative;
-    width: 80%;
+    width: 100%;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .carousel-slider-nav-icon {
-    color: rgb(90, 87, 87);
+    color: white;
 }
 
-/* ----------------------------NOS VALEURS------------------------------- */
+/* ----------------------------NOTRE CONCEPT------------------------------- */
 
-.valeurs {
+.concept {
     display: flex;
     flex-direction: column;
     justify-items: center;
     margin-top: 40px;
 }
 
-.valeurs h1 {
+.concept h1 {
     display: flex;
     justify-content: flex-start;
     padding-left: 80px;
@@ -44,7 +44,7 @@
     letter-spacing: 0.1rem;
 }
 
-.divValeurs {
+.divConcept {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
@@ -52,7 +52,7 @@
     justify-content: center;
 }
 
-.divValeurs img {
+.divConcept img {
     display: grid;
     width: 70%;
     height: 65%;
@@ -61,7 +61,7 @@
     margin-right: auto;
 }
 
-.divValeurs p {
+.divConcept p {
     display: grid;
     font-family: "Paytone One", sans-serif;
     color: #385FC4;
@@ -119,65 +119,70 @@
 
 /* ----------------------------ACTUALITES------------------------------- */
 
-.section2 {
+.actualites {
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    margin-top: 40px;
 }
 
-.titre1 {
+.actusTitre{
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: flex-start;
+    padding-left: 80px;
     font-family: "Paytone One", sans-serif;
     color: #385aa2;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: bolder;
+    font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
 
-.actus {
+.actusContent {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 50px;
-    gap: 40px;
-}
-
-.actus img {
-    width: 70%;
-    height: 70%;
-}
-
-.home, .humans, .fun {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.actus p {
-    display: flex;
-    font-family: "Paytone One", sans-serif;
-    color: white;
-    background-color: rgb(125, 150, 203);
-    width: 70%;
-    text-align: center;
+    justify-items: center;
     justify-content: center;
-    border-radius: 0.3em;
+    gap: 20px;
+    padding: 20px;
 }
 
-@media (max-width: 768px) {
-    .actus {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.actu1 {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: #385FC4;
+    width: 80%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (max-width: 480px) {
-    .actus {
-        grid-template-columns: 1fr;
-    }
+.actu2 {
+    background-color: rgb(229, 135, 215);
+    width: 80%;
+    text-align: center;
 }
 
+.actu3 {
+    background-color: rgb(229, 220, 135);
+    width: 80%;
+    text-align: center;
+}
+
+.actu4 {
+    background-color: rgb(135, 229, 152);
+    width: 80%;
+    text-align: center;
+}
+
+.actu5 {
+    background-color: rgb(135, 166, 229);
+    width: 80%;
+    text-align: center;
+}
 
 /* -----------------------------INCLUSIVITE------------------------------ */
 

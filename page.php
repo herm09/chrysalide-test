@@ -33,11 +33,11 @@ get_header();
 		?>
 
 
-		<section class="valeurs">
+		<section class="concept">
 
 			<h1>Notre concept</h1>
 
-			<div class="divValeurs">
+			<div class="divConcept">
 
 				<div class="Inclus">
 					<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Inclusivité" class="valeursInclus">
@@ -73,29 +73,30 @@ get_header();
 		</section>
 
 
+		<section class="actualites">
 
+			<h1 class="actusTitre">Actualités</h1>
 
+			<div class="actusContent">
 
-
-		<section class="section2">
-
-			<h1 class="titre1">Nos actualités</h1>
-
-			<div class="actus">
-
-				<div class="home">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/maison.png" alt="maison" class="maison">
-					<p>Notre maison a été pensée pour acceuillir au mieux !</p>
+				<div class="actu1">
+					<h2>Actu 1</h2>
 				</div>
 
-				<div class="humans">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/humains_heureux.png" alt="Hommes heureux" class="hommesHeureux">
-					<p>Maison Chrysalide est aussi un endroit de rencontres et <br> de joie.</p>
+				<div class="actu2">
+					<h2>Actu 2</h2>
 				</div>
 
-				<div class="fun">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Happy" class="Happy">
-					<p>Nous sommes à votre écoute et disponibles.</p>
+				<div class="actu3">
+					<h2>Actu 3</h2>
+				</div>
+
+				<div class="actu4">
+					<h2>Actu 4</h2>
+				</div>
+
+				<div class="actu5">
+					<h2>Actu 5</h2>
 				</div>
 
 			</div>
