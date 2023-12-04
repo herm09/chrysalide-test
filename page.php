@@ -78,13 +78,44 @@ get_header();
                 <p>NOUS AVONS BESOIN DE VOUS</p>
             </div>
             <div class="div-rejoindre">
-                <p>Rejoignez-nous en devenant adhérent</p>
+                <p>REJOIGNEZ-NOUS EN DEVENANT ADHERENT.</p>
             </div>
             <div class="div-bouton">
                 <button>Voir plus</button>
             </div>
         </div>
     </section>
+
+	   <!-- Section Actualités -->
+	   <section id="actualites">
+        <h2>Actualités</h2>
+        <div class="div-actu1">
+            <h3>Actu 1</h3>
+            <img src="image_actu1.jpg" alt="Image Actualité 1">
+            <p>Contenu de l'actualité 1...</p>
+        </div>
+        <div class="div-actu2">
+            <h3>Actu 2</h3>
+            <img src="image_actu2.jpg" alt="Image Actualité 2">
+            <p>Contenu de l'actualité 2...</p>
+        </div>
+        <div class="div-actu3">
+            <h3>Actu 3</h3>
+            <img src="image_actu3.jpg" alt="Image Actualité 3">
+            <p>Contenu de l'actualité 3...</p>
+        </div>
+        <div class="div-actu4">
+            <h3>Actu 4</h3>
+            <img src="url_de_l_image_actu4.jpg" alt="Image Actualité 4">
+            <p>Contenu de l'actualité 4...</p>
+        </div>
+        <div class="div-actu5">
+            <h3>Actu 5</h3>
+            <img src="image_actu5.jpg" alt="Image Actualité 5">
+            <p>Contenu de l'actualité 5...</p>
+        </div>
+    </section>
+
 
 </body>
 </html>
