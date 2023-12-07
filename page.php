@@ -8,7 +8,7 @@
  * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
+ * 
  * @package Ping_passion
  */
 
@@ -35,7 +35,7 @@ get_header();
 
 		<section class="concept">
 
-			<h1>Notre concept</h1>
+			<h1>Notre concept.</h1>
 
 			<div class="divConcept">
 
@@ -66,7 +66,10 @@ get_header();
 		<section class=soutiens>
 
 			<h2 class="soutiensh2">Nous avons besoin de vous !</h2>
-			<h1 class="soutiensh1">Rejoignez nous en devenant adhérant(e).</h1>
+			<br><br>
+			<h1 class="soutiensh1">Rejoignez nous en devenant adhérent(e).</h1>
+			<br><br>
+			<h3 class="soutiensh3">Ensemble, <br> créons un monde où chaque personne a sa place.</h3>
 
 			<button class="soutenir">Voir plus</button>
 
@@ -75,7 +78,7 @@ get_header();
 
 		<section class="actualites">
 
-			<h1 class="actusTitre">Actualités</h1>
+			<h1 class="actusTitre">Actualités.</h1>
 
 			<div class="actusContent">
 
@@ -104,7 +107,7 @@ get_header();
 		</section>
 
 
-		<section class="section3">
+		<!-- <section class="section3">
 
 			<h1 class="titre2">Inclusivité</h1>
 
@@ -150,7 +153,7 @@ get_header();
 
 			</div>
 
-		</section>
+		</section> -->
 			
 
 

@@ -11,7 +11,6 @@
  *
  * @package chrysalide
  */
-
 get_header();
 ?>
 

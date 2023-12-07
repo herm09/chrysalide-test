@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .site-main {
     margin-top: 50px;
-    padding-bottom: 190px
+    padding-bottom: 50px
 }
 
 .entry-content {
@@ -10,17 +16,27 @@
     margin-right: auto;
 }
 
-.owl-stage-outer {
-    overflow: hidden;
-    position: relative;
+.post-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-edit-link {
+    display: none;
+}
+
+.carousel-slider__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
 }
 
 .carousel-slider-nav-icon {
-    color: white;
+    color: black;
 }
 
 /* ----------------------------NOTRE CONCEPT------------------------------- */
@@ -29,19 +45,17 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .concept h1 {
     display: flex;
     justify-content: flex-start;
     padding-left: 80px;
-    font-family: "Paytone One", sans-serif;
-    color: #385aa2;
-    font-weight: bolder;
+    font-family: 'Paytone One', sans-serif;
+    color: #385FC4;
+    font-weight: 1000;
     font-size: 35px;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
 }
 
 .divConcept {
@@ -63,13 +77,14 @@
 
 .divConcept p {
     display: grid;
-    font-family: "Paytone One", sans-serif;
+    font-family: 'Paytone One', sans-serif;
     color: #385FC4;
     width: 60%;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /* ----------------------------NOUS SOUTENIR------------------------------- */
 
@@ -80,27 +95,39 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
-    margin-top: 80px;
+    height: 700px;
+    padding-top: 80px;
     background-color: #385FC4;
 }
 
 .soutiensh2 {
-    font-family: "Paytone One", sans-serif;
-    color: white;
-    font-size: 30px;
+    font-family: 'Paytone One', sans-serif;
+    color: #D9D9D9;
+    font-size: 35px;
+    font-weight: 800;
     justify-content: center;
     text-transform: uppercase;
 }
 
 .soutiensh1 {
-    font-family: "Paytone One", sans-serif;
+    font-family: 'Paytone One', sans-serif;
     color: white;
-    font-weight: bold;
-    font-size: 40px;
-    width: 800px;
+    font-size: 50px;
+    width: 930px;
+    font-weight: 1000;
     text-transform: uppercase;
     text-align: center;
+}
+
+.soutiensh3 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .soutenir {
@@ -123,19 +150,17 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .actusTitre{
     display: flex;
     justify-content: flex-start;
     padding-left: 80px;
-    font-family: "Paytone One", sans-serif;
-    color: #385aa2;
-    font-weight: bolder;
+    font-family: 'Paytone One', sans-serif;
+    color: #385FC4;
+    font-weight: 1000;
     font-size: 35px;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
 }
 
 .actusContent {
@@ -147,6 +172,8 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    font-family: 'Paytone One', sans-serif;
+    color: white;
 }
 
 .actu1 {
@@ -197,8 +224,8 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: "Paytone One", sans-serif;
-    color: #385aa2;
+    font-family: 'Paytone One', sans-serif;
+    color: #385FC4;
     font-weight: bold;
     font-size: 30px;
     text-transform: uppercase;
@@ -229,7 +256,7 @@
 
 .inclusivite p {
     flex-grow: 1; /* Permet au texte de s'étendre sur toute la hauteur disponible */
-    font-family: "Paytone One", sans-serif;
+    font-family: 'Paytone One', sans-serif;
     color: white;
     padding: 15px;
     border-radius: 0.3em;
@@ -251,8 +278,8 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-family: "Paytone One", sans-serif;
-    color: #385aa2;
+    font-family: 'Paytone One', sans-serif;
+    color: #385FC4;
     font-weight: bold;
     font-size: 30px;
     text-transform: uppercase;
