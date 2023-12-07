@@ -18,22 +18,23 @@
 			<div class="Propos">
 				<h2>A propos</h2>
 				
-				<a href="">Maison Chrysalide</a>
+				<ul>
+					<li><a href="">Maison Chrysalide</a></li>
+					<li><a href="">Notre concept</a></li>
+					<li><a href="">Nous soutenir</a></li>
+					<li><a href="">Actualités</a></li>
+				</ul>
 				
-				<a href="">Notre concept</a>
-				
-				<a href="">Nous soutenir</a>
-				
-				<a href="">Actualités</a>
+
 			</div>
 
 			<div class="Contacter">
 				<h2>Nous contacter</h2>
-
 				<!-- fais moi un form pour entrer son mail et un bouton envoyer pour s'abonner -->
 				<form action="">
-					<input type="email" placeholder="Votre email">
-					<input type="submit" value="Envoyer">
+					<input type="email" placeholder="Entrez votre Email" class="mail">
+					<br>
+					<input type="submit" value="Envoyer" class="abonner">
 				</form>
 
 			</div>
