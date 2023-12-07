@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inclusivité {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*: url("votre_image.jpg") center/cover no-repeat;  Remplacez "votre_image.jpg" par le chemin de votre image */
+    padding: 5%;
+}
+
+.div-inclu1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.valeurs-inclu {
+    grid-column: 1 / 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.valeurs-inclu1 {
+    color: #385FC4;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.valeurs-inclu2 {
+    font-size: 24px;
+}
+
+.valeur-img {
+    grid-column: 2 / 2;
+ 
+
+}
+
+.div-inclu2 {
+    width: 100%;
+    
+}
+
+.schema-inclu {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*valeurs ecologie*/
+
+.écologie {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 100vh;/* Ajustez la hauteur selon vos besoins*/
+    width: 100%;
+}
+
+.div-eco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 30px;
+    
+}
+
+.valeurs-eco{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 2;
+    background-color: #fff;
+}
+
+.valeurs-eco1 h1,
+.valeurs-eco1 h3 {
+    color: #76AF53;
+    font-family: Paytone One, sans-serif;
+}
+
+.valeurs-eco1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.valeurs-img-eco{
+    grid-column: 1 / 2;
+}
+
+
+/*technologies*/
+
+
+.technologie {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+    width: 100%;
+}
+
+.div-techno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 30px;
+}
+
+.valeurs-techno {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+}
+
+.valeurs-techno1 h1,
+.valeurs-techno1 h3 {
+    color: #F6CACA;
+    font-family: Paytone One, sans-serif;
+}
+
+.valeurs-techno1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.valeurs-img {
+    grid-column: 2 / 2;
+}
+
+
+
+
