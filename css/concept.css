@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-main p{
 
-    text-align: justify
-}
 
 main h3{
     font-size: 22px;
+    padding-bottom: 4%;
 }
+
+
 
 /*Notre concept*/
 
@@ -19,7 +19,6 @@ main h3{
     width: 100%;
     height: 100vh;
     background: linear-gradient(to top right, #385FC4, rgba(255, 255, 255, 0.62)), url('images/concept-img2.png');
-
     position: absolute;
     z-index: 0;
   }
@@ -50,6 +49,7 @@ main h3{
 
 .div-concept1 h1{
     font-size: 80px;
+    font-family: Paytone One, sans-serif;
 }
 
 
@@ -70,7 +70,7 @@ main h3{
 .div-inclu1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 100px;
 }
 
 .valeurs-inclu {
@@ -99,11 +99,17 @@ main h3{
     font-size: 24px;
 }
 
-.valeur-img {
+.inclu-img {
     grid-column: 2 / 2;
- 
-
+    width: 100%;
 }
+
+.inclu-img-1{
+    width: 80%;
+   
+}
+
+
 
 .div-inclu2 {
     width: 100%;
@@ -131,7 +137,7 @@ main h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 60px;
+    gap: 100px;
     
 }
 
@@ -168,8 +174,13 @@ main h3{
 .valeurs-eco2 {
     font-size: 24px;
 }
-.valeurs-img-eco{
+.img-eco{
     grid-column: 1 / 2;
+
+}
+
+.img-eco-1{
+    width: 80%;
 }
 
 
@@ -188,7 +199,7 @@ main h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 60px;
+    gap: 100px;
 }
 
 .valeurs-techno {
@@ -217,8 +228,14 @@ main h3{
 .valeurs-techno2 {
     font-size: 24px;
 }
-.valeurs-img {
+.techno-img {
     grid-column: 2 / 2;
+    position: relative;
+}
+
+.techno-img-1{
+    width: 80%;
+    padding-top: 10%;
 }
 
 /*Adherer*/
@@ -267,3 +284,46 @@ font-size: 42px;
     }
 
 
+
+    /*Responsive*/
+
+
+@media only screen and (max-width: 1650px) {
+
+    .techno-img-1{
+        padding-top: 18%;
+    }
+    
+
+    .div-rejoindre {
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1450px) {
+
+   .valeurs-inclu2 p{
+       font-size: 20px;
+    }
+
+    .valeurs-eco2 p{
+        font-size: 20px;
+    }
+
+    .valeurs-techno2 p{
+        font-size: 20px;
+    }
+
+    .div-inclu1{
+        gap: 50px;
+    }
+
+    .div-eco{
+        gap: 50px;
+    }
+
+    .div-techno{
+        gap: 50px;
+    }
+}
