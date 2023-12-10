@@ -4,34 +4,96 @@
     box-sizing: border-box;
 }
 
+main p{
 
+    text-align: justify
+}
+
+main h3{
+    font-size: 22px;
+}
+
+/*Notre concept*/
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, #385FC4, rgba(255, 255, 255, 0.62)), url('images/concept-img2.png');
+
+    position: absolute;
+    z-index: 0;
+  }
+
+
+.notre-concept {
+    height: 100vh;
+    width: 100%;
+    background-image: url('img-bg/Partners-People.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.div-concept1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignement à gauche */
+    width: 35%;
+    color: #ffffff;
+    margin-left: 18%;
+    z-index: 2;
+    font-family: Paytone One, sans-serif;
+}
+
+.div-concept1 h1{
+    font-size: 80px;
+}
+
+
+.div-concept1 p{
+    font-size: 18px;
+}
+
+/*inclusivité*/
 .inclusivité {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
-    /*: url("votre_image.jpg") center/cover no-repeat;  Remplacez "votre_image.jpg" par le chemin de votre image */
     padding: 5%;
 }
 
 .div-inclu1 {
     display: grid;
-    align-items: center;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 60px;
 }
 
 .valeurs-inclu {
     grid-column: 1 / 1;
     display: flex;
     flex-direction: column;
+    margin-left: auto;
 }
 
 .valeurs-inclu1 {
     color: #385FC4;
     font-family: 'Paytone One', sans-serif;
+    line-height: 20px;
+    padding-bottom: 25px;
 }
+
+.valeurs-inclu1 h1{
+    font-size: 50px;
+}
+.valeurs-inclu1 h3{
+    color: #F0C735;
+}
+
 
 .valeurs-inclu2 {
     font-size: 24px;
@@ -69,7 +131,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 30px;
+    gap: 60px;
     
 }
 
@@ -78,18 +140,33 @@
     flex-direction: column;
     grid-column: 2 / 2;
     background-color: #fff;
+
 }
 
-.valeurs-eco1 h1,
+.valeurs-eco1 h1{
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+    font-size: 50px;
+}
 .valeurs-eco1 h3 {
     color: #76AF53;
     font-family: Paytone One, sans-serif;
+    margin-left: auto;
 }
 
 .valeurs-eco1 {
     display: flex;
     flex-direction: column;
+    line-height: 20px;
+    padding-bottom: 25px;
+    margin-left: auto;
 
+
+
+}
+
+.valeurs-eco2 {
+    font-size: 24px;
 }
 .valeurs-img-eco{
     grid-column: 1 / 2;
@@ -111,7 +188,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 30px;
+    gap: 60px;
 }
 
 .valeurs-techno {
@@ -120,7 +197,11 @@
     grid-column: 1 / 2;
 }
 
-.valeurs-techno1 h1,
+.valeurs-techno1 h1{
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+    font-size: 50px;
+}
 .valeurs-techno1 h3 {
     color: #F6CACA;
     font-family: Paytone One, sans-serif;
@@ -129,12 +210,60 @@
 .valeurs-techno1 {
     display: flex;
     flex-direction: column;
+    line-height: 20px;
+    padding-bottom: 25px;
 }
 
+.valeurs-techno2 {
+    font-size: 24px;
+}
 .valeurs-img {
     grid-column: 2 / 2;
 }
 
+/*Adherer*/
+#adherer {
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.div-adherer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-besoin{
+
+color: #385FC4;
+font-weight: 400;
+font-family: 'Paytone one', sans-serif;
+font-size: 42px;
+}
+
+.div-rejoindre {
+
+    color: #385FC4;
+    font-weight: 400;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 64px;
+    }
+
+
+    .div-bouton button {
+        width: 400px;
+        height: 100px;
+        background-color: #F0C735;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
 
 
