@@ -34,7 +34,7 @@
 				<form action="">
 					<input type="email" placeholder="Entrez votre Email" class="mail">
 					<br>
-					<input type="submit" value="Envoyer" class="abonner">
+					<input type="submit" value="S'abonner" class="abonner">
 				</form>
 
 			</div>
@@ -47,7 +47,7 @@
 				<!-- je veux que tu me fasse une div pour les réseaux sociaux avec facebook, twitter, tiktok et  twitter -->
 				<div class="Reseaux">
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebook"></a>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/insta.png" alt="instagram"></a>
+					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="instagram" class="insta"></a>
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/tiktok.png" alt="tiktok"></a>
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" alt="twitter"></a>
 				</div>

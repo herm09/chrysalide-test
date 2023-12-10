@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    height: 250px;
+    height: 280px;
     background-color: #385FC4;
     color: white;
 }
@@ -21,8 +21,9 @@
 
 .footer h2 {
     font-size: 1.7em;
-    font-weight: bold;
+    font-weight: lighter;
     padding-bottom: 15px;
+    font-family: 'Paytone One', sans-serif;
 }
 
 .Propos {
@@ -43,7 +44,7 @@
     text-decoration: none;
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 22px;
 }
 
 .Contacter {
@@ -56,7 +57,6 @@
     border: none;
     border-radius: 1.3em;
     padding-left: 4px;
-    color: #C4C4C4;
     height: 35px;
     width: 350px;
 }
@@ -69,6 +69,7 @@
     border: 2px solid white;
     border-radius: 1.3em;
     background-color: #385FC4;
+    color: white;
     height: 33px;
     width: 150px;
 }
@@ -76,4 +77,19 @@
 .Contact {
     display: flex;
     flex-direction: column;
+    color: white;
+}
+
+.Reseaux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.insta {
+    height: 34px;
+    width: 34px;
 }

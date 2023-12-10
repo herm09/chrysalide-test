@@ -33,6 +33,18 @@ get_header();
 		?>
 
 
+		<div class="imgHome">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/carousel1.png" alt="Image 1" class="imgHome"></a>
+			<div class="texteSurImage">
+				<h2>Maison Chrysalide</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum facere explicabo sit dolorum delectus 
+					cumque eligendi animi quisquam, exercitationem, unde officia quidem. Repellat corrupti commodi odit 
+					quaerat, expedita quo dignissimos?</p>
+				<button class="Plus">Voir plus</button>
+			</div>
+		</div>
+
+
 		<section class="concept">
 
 			<h1>Notre concept.</h1>
@@ -40,22 +52,24 @@ get_header();
 			<div class="divConcept">
 
 				<div class="Inclus">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/autistes_youpi.png" alt="Inclusivité" class="valeursInclus">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores molestias corrupti 
-						blanditiis deserunt magni ipsa veritatis laborum voluptatum pariatur aperiam aspernatur 
-						molestiae neque sit consequuntur, facilis ratione hic ipsum? Tempore.</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/inclu.png" alt="Inclusivité" class="valeursInclus">
+					<h3 class="txtInclus">Inclusivité</h3>
+					<p><strong>Lorem ipsum</strong> <br> dolor sit amet consectetur adipisicing elit. Maiores molestias corrupti 
+						blanditiis deserunt magni.</p>
 				</div>
+
 				<div class="Eco">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/plantes.png" alt="Ecologie" class="valeursEco">
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nulla iure pariatur 
-						eius delectus ex est illum perspiciatis inventore harum eum rerum architecto quibusdam, 
-						sint numquam obcaecati repudiandae iusto esse!</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/eco.png" alt="Ecologie" class="valeursEco">
+					<h3 class="txtEco">Ecologie</h3>
+					<p><strong>Lorem ipsum</strong> <br> dolor, sit amet consectetur adipisicing elit. Aliquid nulla iure pariatur 
+						eius delectus ex.</p>
 				</div>
+
 				<div class="Techno">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/techno.png" alt="Technologie" class="valeursTechno">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore soluta blanditiis porro 
-						voluptatum, odit cupiditate, ea quidem libero ratione assumenda expedita, temporibus 
-						pariatur inventore sapiente similique. Enim, voluptates ipsum. Beatae!</p>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/technologie.png" alt="Technologie" class="valeursTechno">
+					<h3 class="txtTech">Technologie</h3>
+					<p><strong>Lorem ipsum</strong> <br> dolor sit amet, consectetur adipisicing elit. Labore soluta blanditiis porro 
+						voluptatum, odit cupiditate.</p>
 				</div>
 
 			</div>
@@ -65,13 +79,14 @@ get_header();
 
 		<section class=soutiens>
 
+
 			<h2 class="soutiensh2">Nous avons besoin de vous !</h2>
 			<br><br>
 			<h1 class="soutiensh1">Rejoignez nous en devenant adhérent(e).</h1>
 			<br><br>
-			<h3 class="soutiensh3">Ensemble, <br> créons un monde où chaque personne a sa place.</h3>
 
 			<button class="soutenir">Voir plus</button>
+
 
 		</section>
 
@@ -105,55 +120,6 @@ get_header();
 			</div>
 
 		</section>
-
-
-		<!-- <section class="section3">
-
-			<h1 class="titre2">Inclusivité</h1>
-
-			
-
-			<div class="inclusivite">
-
-				<div class="inclusImg">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/inclus.png" alt="maison" class="people">
-				</div>
-
-				<p class=inclus>Une maison inclusive, où des personnes handicapées ainsi que des adultes valides vivent en communauté
-				et partagent le projet de "vivre ensemble" fondé sur des relations humaines, amicales et fraternelles. <br> <br>
-				Un lieu de vie répondant aux attentes et aux besoins des personnes handicapées, où chacin se sent bien et peut déployer
-				ses compétences au service de tous, et où l'aidé peut devenir aidant.</p>
-			</div>
-			
-
-
-		</section>
-		
-			
-		<section class="section4">
-
-			<h1 class="titre3">Technologie</h1>
-
-			<div>
-
-				<div>
-
-
-				</div>
-
-				<div>
-
-
-				</div>
-
-				<div>
-
-
-				</div>
-
-			</div>
-
-		</section> -->
 			
 
 

@@ -21,6 +21,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Plus+Jakarta+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+
 	<?php wp_head(); ?>
 </head>
 
@@ -31,7 +35,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo Maison Chrysalide" class="logo_chrysalide">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo Maison Chrysalide" class="logo">
 		</div><!-- Logo de maison chrysalide -->
 
 		<nav id="site-navigation" class="main-navigation">
@@ -45,5 +49,6 @@
 				)
 			);
 			?>
+			<button class="headSoutiens">Nous soutenir</button>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
