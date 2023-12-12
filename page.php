@@ -33,7 +33,7 @@ get_header();
 		?>
 
 
-		<div class="imgHome">
+		<div class="Home">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/carousel1.png" alt="Image 1" class="imgHome"></a>
 			<div class="texteSurImage">
 				<h2>Maison Chrysalide</h2>
@@ -82,7 +82,7 @@ get_header();
 
 			<h2 class="soutiensh2">Nous avons besoin de vous !</h2>
 			<br><br>
-			<h1 class="soutiensh1">Rejoignez nous en devenant adhérent(e).</h1>
+			<h1 class="soutiensh1">Rejoignez nous en devenant donateur.</h1>
 			<br><br>
 
 			<button class="soutenir">Voir plus</button>

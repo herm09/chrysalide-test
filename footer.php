@@ -34,7 +34,7 @@
 				<form action="">
 					<input type="email" placeholder="Entrez votre Email" class="mail">
 					<br>
-					<input type="submit" value="S'abonner" class="abonner">
+					<input type="submit" value="Envoyer" class="abonner">
 				</form>
 
 			</div>

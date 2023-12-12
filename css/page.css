@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red !important;
 }
 
 .site-main {
@@ -19,6 +20,14 @@
 
 /* ---------------------------- IMAGE ------------------------------- */
 
+.Home {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .imgHome {
     position: relative;
@@ -69,6 +78,26 @@
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
 }
 
+@media screen and (min-width: 700px) {
+    .imgHome {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .texteSurImage h2 {
+        font-size: 40px;
+        font-family: 'Paytone One', sans-serif;
+        justify-content: start;
+    }
+
+    .texteSurImage p {
+        font-size: 15px;
+        width: 500px;
+        font-family: 'Helvetica', sans-serif;
+    }
+}
+
 
 /* ----------------------------NOTRE CONCEPT------------------------------- */
 
@@ -101,11 +130,11 @@
 
 .divConcept img {
     display: grid;
-    width: 70%;
-    height: 70%;
+    width: 80%;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 
 .txtInclus {
@@ -138,6 +167,13 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .divConcept img {
+        max-width: 100%;
+        object-fit: cover;
+    }
 }
 
 
