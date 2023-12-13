@@ -73,6 +73,17 @@ main h3{
     gap: 100px;
 }
 
+.inclu-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+}
+.inclu-papillon{
+    width: 20%;
+    height: 20%;
+}
+
 .valeurs-inclu {
     grid-column: 1 / 1;
     display: flex;
@@ -149,6 +160,19 @@ main h3{
 
 }
 
+.eco-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+}
+
+.eco-papillon{
+    width: 20%;
+    height: 20%;
+
+}
+
 .valeurs-eco1 h1{
     color: #385FC4;
     font-family: Paytone One, sans-serif;
@@ -193,6 +217,20 @@ main h3{
     padding: 5%;
     height: 100vh; /* Ajustez la hauteur selon vos besoins */
     width: 100%;
+}
+
+.techno-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.techno-papillon{
+    width: 20%;
+    height: 20%;
 }
 
 .div-techno {
@@ -282,6 +320,7 @@ font-size: 42px;
         border: none;
         cursor: pointer;
     }
+
 
 
 
