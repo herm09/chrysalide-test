@@ -29,9 +29,7 @@
                         blanditiis. Esse officia earum sequi debitis aspernatur explicabo quam consectetur dolorem,
                         quae, maiores assumenda ab!</p>
                 </div>
-                <div class="pres-btn">
-                <button>VOIR PLUS</button>
-            </div>
+                
             </div>
 
 
@@ -133,7 +131,7 @@
 
                 </div>
 
-                <div class="techno-img">
+                <div class="img-techno">
                     <img src="images/techno-img.png" alt="" class="techno-img-1">
                 </div>
             </div>
@@ -143,10 +141,10 @@
         <section id="adherer">
             <div class="div-adherer">
                 <div class="div-besoin">
-                    <p>NOUS AVONS BESOIN DE VOUS</p>
+                    <p>NOUS AVONS BESOIN DE VOUS !</p>
                 </div>
                 <div class="div-rejoindre">
-                    <p>REJOIGNEZ-NOUS EN DEVENANT ADHERENT.</p>
+                    <p>REJOIGNEZ-NOUS EN DEVENANT DONATEUR.</p>
                 </div>
                 <div class="div-bouton">
                     <button>Voir plus</button>

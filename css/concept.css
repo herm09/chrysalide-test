@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+main p{
+    color: #385FC4;
+}
 
 main h3{
     font-size: 22px;
@@ -55,6 +57,7 @@ main h3{
 
 .div-concept1 p{
     font-size: 18px;
+    color: #ffffff !important;
 }
 
 /*inclusivité*/
@@ -140,7 +143,7 @@ main h3{
     display: flex;
     align-items: center;
     padding: 5%;
-    height: 100vh;/* Ajustez la hauteur selon vos besoins*/
+    height: 100vh;
     width: 100%;
 }
 
@@ -266,7 +269,7 @@ main h3{
 .valeurs-techno2 {
     font-size: 24px;
 }
-.techno-img {
+.img-techno {
     grid-column: 2 / 2;
     position: relative;
 }
@@ -339,8 +342,30 @@ font-size: 42px;
     }
 }
 
+@media only screen and (max-width: 1592px) {
+
+    .concept1 h1{
+        font-size: 60px;
+    }
+
+    .concept1 p{
+        font-size: 16px;
+    }
+
+
+}
+
 
 @media only screen and (max-width: 1450px) {
+
+    .div-rejoindre {
+        font-size: 40px;
+    }
+    
+
+    .div-besoin{
+        font-size: 30px;
+    }
 
    .valeurs-inclu2 p{
        font-size: 20px;
@@ -365,4 +390,346 @@ font-size: 42px;
     .div-techno{
         gap: 50px;
     }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .div-concept1{
+        width: 50%;
+    }
+
+    .inclusivité{
+       padding: 3%;
+    }
+
+    .ecologie{
+        padding: 3%;
+        
+    }
+
+    .technologie{
+        padding: 3%;
+    }
+
+    #adherer{
+        padding: 3%;
+    }
+
+    .div-techno{
+        align-items: center;
+       
+    }
+
+    .div-eco{
+        align-items: center;
+    }
+
+    .div-inclu1 {
+        align-items: center;
+    }
+    
+    .img-inclu{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        
+    }
+    .img-eco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    
+    }
+
+    .img-techno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    
+    }
+
+    .img-eco-1{
+        width: 100%;
+    }
+
+    .img-techno-1{
+        width: 100%;
+    
+    }
+
+    .img-inclu-1{
+        width: 100%;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1075px) {
+
+    .écologie{
+        height: 60vh;
+    }
+
+    .technologie{
+        height: 60vh;
+    }
+
+    .inclusivité{
+        height: 80vh;
+        justify-content: space-evenly;
+    }
+
+    #adherer{
+        height: 60vh;
+    }
+
+
+.div-concept1{
+    width: 80%;
+}
+    
+    .valeurs-eco h1{
+        font-size: 35px;
+    }
+
+    .valeurs-inclu1 h3{
+        font-size: 18px;
+    }
+
+    
+
+    .valeurs-inclu1 h1{
+        font-size: 35px;
+    }
+
+    .valeurs-eco1 h3{
+        font-size: 18px;
+    }
+
+    .img-eco-1{
+        width: 100%;
+    }
+
+    .valeurs-techno1 h1{
+        font-size: 35px;
+    }
+
+    .valeurs-techno1 h3{
+        font-size: 18px;
+    }
+
+    .techno-img-1{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 985px) {
+
+    .écologie{
+        height: 60vh;
+    }
+
+    .technologie{
+        height: 60vh;
+    }
+
+    .inclusivité{
+        height: 60vh;
+    }
+
+    #adherer{
+        height: 60vh;
+    }
+
+    .div-besoin{
+        font-size: 25px;
+    }
+
+    .div-rejoindre{
+        font-size: 30px;
+    }
+
+    .div-bouton button {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .div-adherer{
+        text-align: center;
+    }
+
+    .img-eco-1{
+        width: 80%;
+    }
+
+    .img-techno-1{
+        width: 80%;
+    
+    }
+
+    .img-inclu-1{
+        width: 80%;
+    }
+
+    .valeurs-inclu2 p{
+        font-size: 16px;
+    }
+
+    .valeurs-eco2 p{
+        font-size: 16px;
+    }
+
+    .valeurs-techno2 p{
+        font-size: 16px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+   
+
+    main img {
+        padding-bottom: 3%;
+    }
+
+    .div-concept1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .div-concept1 h1{
+        font-size: 50px;
+    }
+
+    .div-concept1 p{
+        font-size: 16px;
+    }
+
+    .div-inclu1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 4%;
+    }
+
+    .div-inclu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .inclu-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-eco{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .div-techno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .techno-img-1{
+        padding-top: 30%;
+    }
+
+    .div-adherer {
+        padding: 20px;
+    }
+
+    .div-besoin{
+        font-size: 30px;
+    }
+
+    .div-rejoindre {
+        font-size: 40px;
+    }
+
+    .div-bouton button {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+
+    .div-adherer{
+        text-align: center;
+    }
+
+    .div-adherer div {
+        padding-bottom: 5%;
+    }
+
+    .div-besoin{
+        font-size: 20px;
+    }
+
+    .div-rejoindre {
+        font-size: 25px;
+    }
+
+    .inclusivité{
+        height: 100%;
+    }
+
+    .écologie{
+        height: 100%;
+        padding-bottom: 6%;
+    }
+    
+    .technologie{
+        height: 100%;
+        
+    }
+        
+    .img-techno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .techno-img-1{
+            padding-top: 0%;
+            width: 80%;
+        }
+
+        .img-inclu-1{
+            width: 80%;
+        }
+    
+    .img-eco{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        
+
+
+       
+
+
+   
+    
 }
