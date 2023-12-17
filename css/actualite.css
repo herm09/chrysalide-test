@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alignement à gauche */
-    width: 35%;
+    width: 45%;
     color: #ffffff;
     margin-left: 18%;
     height: 55%;
@@ -92,6 +92,7 @@ height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
+    padding-bottom: 2%;
 
 }
 
@@ -101,6 +102,8 @@ height: 100%;
     position: relative;
     grid-column: 1 / 1;
     padding: 10%;
+
+
 }
 
 .actu-1 h1{
@@ -113,6 +116,14 @@ height: 100%;
     font-size: 18px;
     font-family: Paytone One, sans-serif;
     color: #385FC4;
+}
+
+.img-actu1{
+    width: 100%;
+}
+
+.class-img-actu1{
+    width: 80%;
 }
 
 
@@ -131,6 +142,14 @@ height: 100%;
     color: #385FC4;
 }
 
+.img-actu2{
+    width: 100%;
+}
+
+.class-img-actu2{
+    width: 90%;
+}
+
 .actu-3{
     display: flex;
     flex-direction: column;
@@ -146,6 +165,13 @@ height: 100%;
     color: #385FC4;
 }
 
+.img-actu3{
+    width: 100%;
+}
+
+.class-img-actu3{
+    width: 90%;
+}
 
 /*actualité-2*/
 
@@ -194,6 +220,14 @@ height: 25%;
     color: #385FC4;
 }
 
+.img-actu4{
+    width: 100%;
+}
+
+.class-img-actu4{
+    width: 90%;
+}
+
 .actu-5{
     display: flex;
     flex-direction: column;
@@ -206,29 +240,117 @@ height: 25%;
     color: #385FC4;
 }
 
+.img-actu5{
+    width: 100%;
+}
+
+.class-img-actu5{
+    width: 90%;
+}
 
     /*actualités-3*/
 
     .actualités-3{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10%;
+        gap: 30px;
     }
     
 .actu-10{
     grid-column: 1;
 }    
 
+.img-actu10 h1{
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
+}
+
 
 .actu-11{
     grid-column: 2;
+    color: #385FC4;
+}
+
+.img-actu11 h1{
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
 }
 
 .actu-12{
     grid-column: 3;
+    color: #385FC4;
 }   
+
+.img-actu12 h1{
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
+}
 
 .actu-13{
     grid-column: 4;
+    color: #385FC4;
 }   
 
+.img-actu13 h1{
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
+}
 
+
+
+
+@media only screen and (max-width: 1300px) {
+
+.bloc-pres {
+    width: 50%;
+    margin-left: 15%;
+    height: 50%;
+    font-size: 15px;
+    gap: 5%;
+
+}
+}
+
+@media only screen and (max-width: 1210px) {
+
+.actu4-h1 h1{
+    font-size: 30px;
+    
+
+}
+
+.actu5-h1 h1{
+    font-size: 30px;
+}
+        
+.actus-6à9 h2{
+
+    font-size: 25px;
+
+        }
+
+@media only screen and (max-width: 1150px) {
+
+.bloc-pres {
+    width: 60%;
+    margin-left: 10%;
+    height: 50%;
+    font-size: 15px;
+    gap: 5%;
+
+}
+
+.pres-h1{
+    font-size: 60px;
+}
+
+.pres-p{
+    font-size: 15px;
+
+}
+
+    
+    }
+
+}
