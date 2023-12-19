@@ -55,6 +55,7 @@ main h3{
 }
 
 
+
 .div-concept1 p{
     font-size: 18px;
     color: #ffffff !important;
@@ -66,7 +67,7 @@ main h3{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 50vh;
     padding: 5%;
     padding-bottom: 0%;
 }
@@ -99,7 +100,7 @@ main h3{
     color: #385FC4;
     font-family: 'Paytone One', sans-serif;
     line-height: 20px;
-    padding-bottom: 25px;
+    padding: 5%;
 }
 
 .valeurs-inclu1 h1{
@@ -112,6 +113,7 @@ main h3{
 
 .valeurs-inclu2 {
     font-size: 24px;
+    line-height: 25px;
 }
 
 .inclu-img {
@@ -134,7 +136,7 @@ main h3{
 .schema-inclu {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16%;
+    padding-left: 5%;
     padding-top: 5%;
 
 }
@@ -214,6 +216,7 @@ main h3{
 
 .img-eco-1{
     width: 80%;
+    height: 80%;
 }
 
 
@@ -240,6 +243,7 @@ main h3{
 .techno-papillon{
     width: 20%;
     height: 20%;
+  
 }
 
 .div-techno {
@@ -281,8 +285,8 @@ main h3{
 }
 
 .techno-img-1{
-    width: 80%;
-    padding-top: 10%;
+    width: 100%;
+    height: 100%;
 }
 
 /*Adherer*/
@@ -299,6 +303,9 @@ main h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20%;
+  
+
 }
 
 .div-besoin{
@@ -396,6 +403,7 @@ font-size: 42px;
 
    .valeurs-inclu2 p{
        font-size: 20px;
+       font-family: Paytone One, sans-serif;
     }
 
     .valeurs-eco2 p{
@@ -473,6 +481,11 @@ font-size: 42px;
             gap: 50px;
         
     }
+
+    .inclu-img-1{
+       width: 80%;
+       padding-top: 30%;
+    }
     .img-eco {
         display: flex;
         flex-direction: column;
@@ -531,6 +544,9 @@ font-size: 42px;
         height: 60vh;
     }
 
+   
+    
+
 
 .div-concept1{
     width: 80%;
@@ -543,6 +559,11 @@ font-size: 42px;
     .valeurs-inclu1 h3{
         font-size: 18px;
     }
+
+    .inclu-img-1{
+        width: 80%;
+        padding-top: 30%;
+     }
 
     
 
@@ -617,6 +638,11 @@ font-size: 42px;
     
     }
 
+    .inclu-img-1{
+        width: 80%;
+        padding-top: 40%;
+     } 
+
     .img-inclu-1{
         width: 80%;
     }
@@ -681,10 +707,17 @@ font-size: 42px;
         gap: 50px;
     }
 
-    .inclu-img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    
+    .inclu-img-1{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    
+
+    .techno-img-1{
+        margin-inline: auto;
     }
 
     .div-eco{
@@ -710,7 +743,7 @@ font-size: 42px;
     }
 
     .div-besoin{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .div-rejoindre {

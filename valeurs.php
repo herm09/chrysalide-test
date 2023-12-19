@@ -1,8 +1,8 @@
 <?php
-//  get_header();
+get_header();
 
 ?>
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body> -->
     <main>
         <div class="overlay"></div>
         <section class="notre-concept">
@@ -68,7 +68,7 @@
             <div class="div-inclu2">
 
                 <div class="schema-inclu">
-                    <img src="images/maison-1.png" alt="">
+                    <img src="images/maison.png" class='img-schema' alt="">
                 </div>
             </div>
 
@@ -96,6 +96,7 @@
                     <div class="valeurs-eco2">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio repellat eum earum corrupti
                             harum pariatur voluptatum voluptatem magni! Repellendus, earum atque voluptate culpa eius
+
                             blanditiis. Esse officia earum sequi debitis aspernatur explicabo quam consectetur dolorem,
                             quae, maiores assumenda ab!</p>
                     </div>
@@ -123,7 +124,7 @@
                     <div class="valeurs-techno2">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem labore harum fugit
                             consequatur possimus distinctio ut excepturi eius delectus, esse reprehenderit blanditiis
-                            quidem natus alias quisquam expedita reiciendis quod laboriosam laborum! Neque, non ipsam.
+                            quidem natus alias quisquam expedita reiciendis quod laboriosam laborum! Neque, non ipsam. 
                             Praesentium laboriosam eum eligendi corrupti ad velit numquam qui ut vero aliquid debitis,
                             dolores dolorum iure aut molestias nihil tempore et unde reiciendis ipsum excepturi, omnis
                             nisi? Molestias mollitia corporis ad libero illo tempora distinctio aspernatur.</p>
@@ -154,10 +155,9 @@
 
     </main>
 
-</body>
+
 
 <?php
-// get_footer();
+get_footer();
 ?>
 
-</html>
