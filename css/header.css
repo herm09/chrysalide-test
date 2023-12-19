@@ -1,13 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .site-header {
 	display: flex;
     justify-content: space-between;
     height: 100px;
     width: 100%;
+    background: #FFF;
+    align-items: center;
 }
 
 .ping-logo {
     height: 100%;
     margin-left: 20px;
+    fill: lightgray -365.406px 0px / 859.335% 100% no-repeat;
 }
 
 .site-branding img {
@@ -25,24 +34,22 @@
 
 .main-navigation {
     display: flex;
-    height: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 50px;
+    gap: 70px;
+    height: 100%;
+    width: 100%;
+    margin-right: 40px;
 }
 
 .menu ul {
     display: flex;
-    width: 100%;
     list-style: none;
     font-family: 'Paytone One', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    padding-top: 50px;
     gap: 60px;
 }
 
@@ -64,7 +71,6 @@
 }
 
 .headSoutiens {
-    margin-top: 50px;
     background-color: #F0C735;
     border: none;
     color: white;
@@ -78,4 +84,16 @@
 
 .entry-title {
     display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .site-branding {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main-navigation {
+        display: none;
+    }
 }

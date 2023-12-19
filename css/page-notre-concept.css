@@ -2,74 +2,272 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red !important;
+    /* outline: 1px solid red !important; */
 }
 
 
 /* ---------------------------- HEADER ------------------------------- */
 
-.Head {
+/* .Head {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
+} */
+
+/* .txtImage {
+    position: absolute;
+    top: 50%; Ajustez la position verticale du texte
+    left: 30%; Ajustez la position horizontale du texte
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px; Ajustez la taille du texte selon vos besoins
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+} */
+
+body {
+    background-color: white;
 }
 
-.imgHead {
+
+.entry-content {
+    background-color: white;
+}
+
+.imgHead { /*Image Notre histoire*/
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     object-fit: cover;
+}
+
+.txtImage-h2 { /*Titre Notre histoire*/
+    display: flex;
+    font-size: 70px;
+    font-family: 'Paytone One', sans-serif;
+    justify-content: start;
+    font-weight: 1000;
+    padding-bottom: 20px;
+    color: white;
+    margin-left: 130px;
+}
+
+.txtImage-p { /*Texte notre histoire*/
+    font-size: 20px;
+    width: 550px;
+    text-align: start;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    margin-left: 130px;
+}
+
+.Plus { /*Button voir plus*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Helvetica', sans-serif;
+    color: #385FC4;
+    font-size: 25px;
+    text-transform: uppercase;
+    width: 220px;
+    height: 50px;
+    border-radius: 72.5px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 900px) {
+    .imgHead { /*Image Notre histoire*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* .txtImage {
+        margin-left: 40px;
+    } */
+
+    .txtImage-h2 { /*Titre Notre histoire*/
+        display: flex;
+        font-size: 40px;
+        font-family: 'Paytone One', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .txtImage-p { /*Texte notre histoire*/
+        display: flex;
+        font-size: 15px;
+        width: 360px;
+        font-family: 'Helvetica', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
 }
 
 /* ---------------------------- CONCEPT ------------------------------- */
 
+.Concept { /*Div concept page-concept.php*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 108vh;
+    background-color: white;
+}
+
+/* .divConcept {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .imgConcept {
+    display: flex;
+    align-items: center;
+} */
+
+.imgConcept-h2 { /*Titre notre concept*/
+    display: flex;
+    font-family: 'Paytone One', sans-serif;
+    color: #385FC4;
+    font-size: 60px;
+    width: 450px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.txtGrid { /*Div texte cote a cote*/
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.txtGrid-p { /*Textes concept*/
+    display: flex;
+    color: #385FC4;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgPapillon { /*Image papillon concept*/
+    display: flex;
+}
+
+@media screen and (max-width: 1150px) {
+    .Concept { /*Div concept page-concept.php*/
+        height: 120vh;
+    }
+
+    /* .wp-block-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+    .imgConcept-h2 { /*Titre notre concept*/
+        /* display: flex; */
+        font-size: 30px;
+    }
+
+    /* .txtGrid {
+        grid-template-columns: 1fr; Les éléments se placent en colonne
+        height: 674px;
+    } */
+
+    .txtGrid-p { /*Textes concept*/
+        font-size: 18px;
+        /* height: 190px; */
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 353px;
+    }
+}
 
 /* ---------------------------- IMAGE ------------------------------- */
 
+/* .Desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    padding-top: 134px;
+    background-color: white;
+} */
 
+.imgDesc { /*Image josette*/
+    position: relative;
+    width: 100%;
+    height: 140%;
+}
+
+.wp-block-image img {
+    position: relative;
+    width: 100%;
+    height: 140%;
+}
 
 /* ----------------------------NOUS SOUTENIR------------------------------- */
 
-.Soutenir {
+.Soutenir { /*Div soutiens*/
     display: flex;
     flex-direction: column;
     justify-items: center;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
-    height: 100vh;
+    background-color: white;
+    height: 86vh;
 }
 
-.titre2 {
+.titre2 { /*Titre H2*/
     font-family: 'Paytone One', sans-serif;
-    color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
     justify-content: center;
     text-transform: uppercase;
     color: #385FC4;
+    text-align: center;
 }
 
-.titre1 {
+.titre1 { /*Tittre H1*/
     font-family: 'Paytone One', sans-serif;
-    color: white;
-    font-size: 50px;
+    font-size: 55px;
     width: 930px;
     font-weight: 1000;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     text-align: center;
     color: #385FC4;
+    margin-bottom: 50px;
 }
 
-.btnSoutiens {
+.btnSoutiens { /*Boutons voir plus soutiens*/
+    display: flex;
     background-color: #F0C735;
     border: none;
-    color: white;
+    font-family: Helvetica, sans-serif;
     border-radius: 72.5px;
     height: 70px;
     width: 300px;
@@ -77,4 +275,68 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 950px) {
+    .Soutenir { /*Div soutiens*/
+        height: 70vh;
+    }
+
+    .titre2 { /*Titre H2*/
+        font-size: 25px;
+    }
+
+    .titre1 { /*Tittre H1*/
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .btnSoutiens { /*Boutons voir plus soutiens*/
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+    }
+}
+
+/* ---------------------------- PARTENARIAT ------------------------------ */
+
+.Partenariat { /*Div partenariat*/
+    height: 30vh;
+}
+
+.txtPartenariat { /*Texte partenaire*/
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #385FC4;
+}
+
+.imgPartenariat { /*Image perce neige*/
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .Partenariat { /*Div partenariat*/
+        display: flex;
+        height: 50vh;
+        width: 100%;
+        align-content: center;
+    }
+
+    .txtPartenariat{ /*Texte partenaire*/
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .imgPartenariat { /*Image perce neige*/
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
 }

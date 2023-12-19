@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red !important;
-}
-
-.site-main {
-    margin-top: 50px;
-    padding-bottom: 50px
+    /* outline: 1px solid red !important; */
 }
 
 .entry-content {
@@ -20,45 +15,51 @@
 
 /* ---------------------------- IMAGE ------------------------------- */
 
-.Home {
+/* .Home {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
-.imgHome {
+.imgHome { /*Image Maison chrysalide*/
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     object-fit: cover;
 }
 
-.texteSurImage {
+/* .texteSurImage {
     position: absolute;
-    top: 50%; /* Ajustez la position verticale du texte */
-    left: 30%; /* Ajustez la position horizontale du texte */
+    top: 50%; Ajustez la position verticale du texte
+    left: 30%; Ajustez la position horizontale du texte
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px; /* Ajustez la taille du texte selon vos besoins */
-    font-family: 'VotrePolice', sans-serif; /* Ajoutez votre police de caractères préférée */
-    text-align: center;
-}
-
-.texteSurImage h2 {
-    font-size: 60px;
+    font-size: 24px; Ajustez la taille du texte selon vos besoins
     font-family: 'Paytone One', sans-serif;
+    text-align: center;
+} */
+
+.texteSurImage-h2 { /*Titre Maison chrysalide*/
+    display: flex;
+    font-size: 70px;
+    font-family: 'Paytone One', sans-serif;
+    justify-content: start;
     font-weight: 1000;
     padding-bottom: 20px;
+    color: white;
+    margin-left: 130px;
 }
 
-.texteSurImage p {
+.texteSurImage-p {
     font-size: 20px;
-    width: 500px;
+    width: 550px;
     text-align: start;
     font-family: 'Helvetica', sans-serif;
+    color: white;
+    margin-left: 130px;
 }
 
 .Plus {
@@ -70,7 +71,7 @@
     color: #385FC4;
     font-size: 25px;
     text-transform: uppercase;
-    width: 220px;
+    width: 250px;
     height: 50px;
     border-radius: 72.5px;
     border: none;
@@ -78,24 +79,36 @@
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 1100px) {
     .imgHome {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .texteSurImage h2 {
-        font-size: 40px;
-        font-family: 'Paytone One', sans-serif;
-        justify-content: start;
+    .texteSurImage {
+        margin-left: 40px;
     }
 
-    .texteSurImage p {
+    .texteSurImage-h2 {
+        display: flex;
+        font-size: 30px;
+        font-family: 'Paytone One', sans-serif;
+        justify-content: start;
+        justify-content: center;
+    }
+
+    .texteSurImage-p {
         font-size: 15px;
-        width: 500px;
+        width: 342px;
         font-family: 'Helvetica', sans-serif;
     }
+
+    .Plus {
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+    }   
 }
 
 
@@ -103,62 +116,83 @@
 
 .concept {
     display: flex;
-    flex-direction: column;
     justify-items: center;
-    padding-top: 40px;
     padding-bottom: 20px;
-    height: 90vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.concept h1 {
+.concept-h1 {
     display: flex;
     justify-content: flex-start;
-    padding-left: 80px;
+    padding-left: 130px;
     font-family: 'Paytone One', sans-serif;
     color: #385FC4;
     font-weight: 1000;
     font-size: 50px;
 }
 
-.divConcept {
+/* .divConcept {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); Définit une grille de 3 colonnes de taille égale
     margin-top: 50px;
+    min-width: 200px;
     justify-items: center;
+    gap: 10px;
     justify-content: center;
-}
+    width: 100%;
+} */
 
-.divConcept img {
-    display: grid;
-    width: 80%;
+/* .Inclus, .Eco, .Techno {
+    min-width: 200px;
+    min-height: 322px;
+} */
+
+
+.divConcept-img {
+    display: flex;
+    width: 450px;
+    height: 400px;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
-    object-fit: cover;
+    padding-top: 20px;
 }
 
 .txtInclus {
-    display: grid;
     font-family: 'Paytone One', sans-serif;
     color: #FFE792;
     justify-content: center;
-}
-
-.txtEco {
-    display: grid;
-    font-family: 'Paytone One', sans-serif;
-    color: #C7E5B5;
-    justify-content: center;
+    position: sticky;
+    top: 416px;
 }
 
 .txtTech {
-    display: grid;
     font-family: 'Paytone One', sans-serif;
     color: #F6CACA;
     justify-content: center;
 }
 
-.divConcept p {
+.txtEco {
+    font-family: 'Paytone One', sans-serif;
+    color: #C7E5B5;
+    justify-content: center;
+}
+
+.Eco-p, .Techno-p, .Inclus-p {
+    display: grid;
+    font-family: 'Helevitica Neue', sans-serif;
+    color: #385FC4;
+    width: 60%;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+/* .divConcept-p {
     display: grid;
     font-family: 'Helevitica Neue', sans-serif;
     color: #385FC4;
@@ -166,11 +200,28 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-}
+    padding-top: 30px;
+} */
 
-@media screen and (max-width: 700px) {
-    .divConcept img {
+/* .intro_asso {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+} */
+
+@media screen and (max-width: 1400px) {
+    .concept {
+        display: flex;
+        flex-direction: column;
+        height: 164vh;
+    }
+
+    .divConcept-img {
         max-width: 100%;
         object-fit: cover;
     }
@@ -186,12 +237,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
     background-color: #385FC4;
-    height: 100vh;
+    height: 90vh;
 }
 
 .soutiensh2 {
+    display: flex;
     font-family: 'Paytone One', sans-serif;
     color: white;
     font-size: 35px;
@@ -211,22 +262,12 @@
     text-align: center;
 }
 
-.soutiensh3 {
-    font-family: 'Paytone One', sans-serif;
-    font-size: 25px;
-    color: white;
-    font-weight: 600;
-    justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
 .soutenir {
+    display: flex;
     background-color: #F0C735;
     border: none;
     color: white;
+    font-family: Helvetica, sans-serif;
     border-radius: 72.5px;
     height: 70px;
     width: 300px;
@@ -234,6 +275,30 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    text-align: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 950px) {
+    .soutiens {
+        height: 100vh;
+    }
+
+    .soutiensh1 {
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .soutiensh2 {
+        font-size: 25px;
+    }
+
+    .soutenir {
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+    }
 }
 
 
@@ -243,8 +308,8 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    padding-top: 40px;
-    height: 90vh;
+    height: 117vh;
+    justify-content: center;
 }
 
 .actusTitre{
@@ -277,7 +342,6 @@
     background-color: #385FC4;
     width: 80%;
     height: 400px;
-
 }
 
 .actu2 {
@@ -306,5 +370,16 @@
 
 /* Ajoutez ces styles CSS pour positionner le texte en bas à gauche */
 .actusContent h2 {
-    position:absolute;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 800px) {
+    .actualites {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        height: 109vh;
+        justify-content: center;
+    }
 }

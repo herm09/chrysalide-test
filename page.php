@@ -33,7 +33,7 @@ get_header();
 		?>
 
 
-		<div class="Home">
+		<!-- <div class="Home">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/carousel1.png" alt="Image 1" class="imgHome"></a>
 			<div class="texteSurImage">
 				<h2>Maison Chrysalide</h2>
@@ -42,42 +42,48 @@ get_header();
 					quaerat, expedita quo dignissimos?</p>
 				<button class="Plus">Voir plus</button>
 			</div>
-		</div>
+		</div> -->
 
 
-		<section class="concept">
+		<!-- <section class="concept">
 
 			<h1>Notre concept.</h1>
 
 			<div class="divConcept">
 
 				<div class="Inclus">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/inclu.png" alt="Inclusivité" class="valeursInclus">
-					<h3 class="txtInclus">Inclusivité</h3>
+					<div class="intro_asso">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/inclu.png" alt="Inclusivité" class="valeursInclus">
+						<h3 class="txtInclus">Partage</h3>
+					</div>
 					<p><strong>Lorem ipsum</strong> <br> dolor sit amet consectetur adipisicing elit. Maiores molestias corrupti 
 						blanditiis deserunt magni.</p>
 				</div>
 
-				<div class="Eco">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/eco.png" alt="Ecologie" class="valeursEco">
-					<h3 class="txtEco">Ecologie</h3>
-					<p><strong>Lorem ipsum</strong> <br> dolor, sit amet consectetur adipisicing elit. Aliquid nulla iure pariatur 
-						eius delectus ex.</p>
-				</div>
-
 				<div class="Techno">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/technologie.png" alt="Technologie" class="valeursTechno">
-					<h3 class="txtTech">Technologie</h3>
+					<div class="intro_asso">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/technologie.png" alt="Technologie" class="valeursTechno">
+						<h3 class="txtTech">Technologie</h3>
+					</div>
 					<p><strong>Lorem ipsum</strong> <br> dolor sit amet, consectetur adipisicing elit. Labore soluta blanditiis porro 
 						voluptatum, odit cupiditate.</p>
 				</div>
 
+				<div class="Eco">
+					<div class="intro_asso">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/eco.png" alt="Ecologie" class="valeursEco">
+						<h3 class="txtEco">Ecologie</h3>
+					</div>
+					<p><strong>Lorem ipsum</strong> <br> dolor, sit amet consectetur adipisicing elit. Aliquid nulla iure pariatur 
+						eius delectus ex.</p>
+				</div>
+
 			</div>
 
-		</section>
+		</section> -->
 		
 
-		<section class=soutiens>
+		<!-- <section class="soutiens">
 
 
 			<h2 class="soutiensh2">Nous avons besoin de vous !</h2>
@@ -88,7 +94,7 @@ get_header();
 			<button class="soutenir">Voir plus</button>
 
 
-		</section>
+		</section> -->
 
 
 		<section class="actualites">
@@ -126,6 +132,9 @@ get_header();
 	
 
 	</main><!-- #main -->
+	
+	<script src="main.js"></script>
+
 
 <?php
 

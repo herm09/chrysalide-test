@@ -71,6 +71,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  @import url('css/page.css');
  @import url('css/footer.css');
  @import url('css/page-notre-concept.css');
+ @import url('css/page-actualites.css');
+ @import url('css/single-concept.css');
 
  /* * {
 	outline: 1px solid red !important;
