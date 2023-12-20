@@ -1,0 +1,99 @@
+.carte-actualites{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.actualités-concept {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('img-bg/actu-img.png');
+    background-repeat: no-repeat;
+}
+
+.div-actus1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignement à gauche */
+    width: 100%;
+    color: #ffffff;
+    margin-left: 30%;
+    z-index: 2;
+    font-family: Paytone One, sans-serif;
+}
+
+.actus-titre h1{
+    font-size: 80px;
+    font-family: Paytone One, sans-serif;
+}
+
+.actus-titre p{
+    font-size: 18px;
+    color: #ffffff !important;
+}
+.actualites-cards {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+   
+    
+}
+
+.actu-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.actu-align h2{
+    font-size: 30px;
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
+}
+
+.actu-align p{
+    font-size: 18px;
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+}
+.revetements_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+    height: 100%;
+}
+
+.lien img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+#adherer{
+    height: 100%;
+}
+.div-adherer{
+    padding-top: 0%;
+}
+
+.div-besoin p{
+    font-size: 40px;
+}
+
+.div-rejoindre p{
+    font-size: 60px;
+}
+

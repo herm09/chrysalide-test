@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package chrysalide
+ * @package chrysalide_wp_test
  */
 
 get_header();

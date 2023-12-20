@@ -1,0 +1,187 @@
+/*div concept
+
+.concept{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.concept h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.div-concept {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-inclu,
+.div-eco,
+.div-techno {
+    width: 517px;
+    height: 409px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img-inclu,
+.img-eco,
+.img-techno {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.div-inclu h3,
+.div-eco h3,
+.div-techno h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+
+.div-inclu p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.div-eco p{position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.div-techno p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}*/
+
+/*div adhérer*/
+
+/* #adherer {
+    text-align: center;
+    background: url("votre_image.jpg") center/cover no-repeat; 
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.div-adherer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-besoin {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 42px;
+}
+
+.div-rejoindre {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 64px;
+}
+
+.div-bouton button {
+    width: 583px;
+    height: 145px;
+    background-color: #F0C735;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+} */
+
+.div-bouton button:hover {
+    background-color: #D3B123;
+}
+
+
+
+/*div actualité*/
+#actualites {
+   display: flex;
+    flex-direction: column;
+
+}
+
+#actualites h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.actu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#actualites > div {
+
+gap: 10px;
+width: 100%;
+height: 100%;
+
+}
+
+.div-actu1 {
+    grid-column:  1 / 3;
+
+    border: 1px solid black;
+}
+
+.div-actu2 {
+    grid-column: 2 / 1;
+    border: 1px solid black;
+}
+
+.div-actu3 {
+    grid-column: 2 / 1;
+    border: 1px solid black;
+}
+
+.div-actu4 {
+    grid-column: 3 / 1;
+    border: 1px solid black;
+}
+
+.div-actu5 {
+    grid-column: 3 / 1;
+    border: 1px solid black;
+}
+
+.div-actu1 img,
+.div-actu2 img,
+.div-actu3 img,
+.div-actu4 img,
+.div-actu5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
