@@ -1,0 +1,255 @@
+.site-main {
+    background-color: white;
+}
+
+.page-header { /* HEADER IMAGE */
+    display: flex;
+    font-display: column;
+    align-items: center;
+    position: relative;
+    object-fit: cover;
+    background-image: url('../img/actus_vague.png');
+    background-color: white;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.actu_pres { /* DIV TEXTES HEADER */
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    width: 600px;
+    height: auto;
+    gap: 20px;
+    font-size: 1.3em;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+.lesactualités { /* TITRE H1 NOS ACTUALITES */
+    display: flex;
+    font-size: 70px;
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 1000;
+    padding-bottom: 20px;
+    color: white;
+}
+
+/* ---------------------------- CARDS ACTUALITES ------------------------------- */
+
+.carte-actualites { /* DIV ACTUALITES */
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    justify-items: center;
+}
+
+.actualites-cards { /* CARDS ACTUALITES */
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+   
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+}
+
+.actu-align { /* CONTENU CARDS ACTUALITES */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.actu-align h2 { /* TITRE ACTUS */
+    font-size: 30px;
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
+    
+}
+
+.actu-align p { /* DESCRIPTION ACTUS */
+    font-size: 18px;
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+}
+
+@media screen and (max-width: 950px) {
+    .carte-actualites {
+        grid-template-columns: 1fr;
+        height: 300vh;
+    }
+}
+
+/* ----------------------------DEVENIR DONATEUR------------------------------- */
+
+/* #adherer {
+    height: 100%;
+} */
+
+.Adherant {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 86vh;
+}
+
+.div-adherer { /* DIV TEXTES */
+    padding-top: 0%;
+}
+
+.div-besoin { /* TITRE H2 */
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #385FC4;
+    text-align: center;
+}
+
+.div-rejoindre { /* TITRE H1 */
+    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
+    width: 930px;
+    font-weight: 1000;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #385FC4;
+    margin-bottom: 50px;
+}
+
+.butonSoutiens { /* BOUTON NOUS SOUTENIR */
+    display: flex;
+    background-color: #F0C735;
+    border: none;
+    border-radius: 72.5px;
+    height: 70px;
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-bouton { /* NOUS SOUTENIR*/
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.butonSoutiens:hover {
+    background-color: #c69e0e;
+    transition: 0.5s;
+}
+
+.wp-block-buttons>.wp-block-button {
+    display: flex;
+}
+
+@media screen and (max-width: 950px) {
+    .Adherant { /*Div soutiens*/
+        height: 70vh;
+    }
+
+    .div-besoin { /*Titre H2*/
+        font-size: 25px;
+    }
+
+    .div-rejoindre { /*Tittre H1*/
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .butonSoutiens { /* BOUTON NOUS SOUTENIR */
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+    }
+}
+
+/* ---------------------------- FOOTER ------------------------------- */
+
+.actualités-concept {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('img-bg/actu-img.png');
+    background-repeat: no-repeat;
+}
+
+.div-actus1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignement à gauche */
+    width: 100%;
+    color: #ffffff;
+    margin-left: 30%;
+    z-index: 2;
+    font-family: Paytone One, sans-serif;
+}
+
+.actus-titre h1{
+    font-size: 80px;
+    font-family: Paytone One, sans-serif;
+}
+
+.actus-titre p{
+    font-size: 18px;
+    color: #ffffff !important;
+}
+
+.revetements_content{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+    height: 100%;
+}
+
+.lien img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.div_pres {
+    width: 100%;
+}
+
+@media screen  and (max-width: 1200px) {
+    .carte-actualites {
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -1,0 +1,1345 @@
+/* PAGE CONCEPT / VALEURS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------- HEADER NOS VALEURS ------------------------------- */
+
+.notre-concept { /* IMAGE Nos valeurs */
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.div-concept1-h1 { /* TITRE Nos valeurs */
+    display: flex;
+    font-size: 70px;
+    font-family: 'Paytone One', sans-serif;
+    justify-content: start;
+    font-weight: 1000;
+    padding-bottom: 20px;
+    color: white;
+    margin-left: 130px;
+}
+
+.div-concept1-p { /* TEXTE nos valeurs */
+    font-size: 20px;
+    width: 550px;
+    text-align: start;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 900px) {
+    .notre-concept { /*Image Notre histoire*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .div-concept1-h1 { /*Titre Notre histoire*/
+        display: flex;
+        font-size: 40px;
+        font-family: 'Paytone One', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .div-concept1-p { /*Texte notre histoire*/
+        display: flex;
+        font-size: 15px;
+        width: 360px;
+        font-family: 'Helvetica', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}
+
+/* .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+} */
+
+/* .div-concept1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+    color: #ffffff;
+    margin-left: 18%;
+    z-index: 2;
+    font-family: Paytone One, sans-serif;
+} */
+
+/* ---------------------------- VALEURS : PARTAGE ------------------------------- */
+
+.div-partage { /* DIV VALEURS : PARTAGE */
+    /* padding: 5%; */
+    /* padding-bottom: 30px; */
+    height: 103vh;
+}
+
+.partage-txt { /* DIV H1 + H2 + PAPILLON + TEXTE */
+    font-family: 'Paytone One', sans-serif;
+    padding: 5%;
+}
+
+.valeurs-h1 { /* TITRE 1 : NOS VALEURS */
+    display: flex;
+    color: #385FC4;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    width: 600px;
+}
+
+.partage-h2 { /* TITRE 2 : PARTAGE */
+    color: #F0C735;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 430px;
+}
+
+.partage-papillon {/* IMAGE PAPILLON VALEURS : PARTAGE */
+}
+
+.partage-p { /* TEXTE VALEURS : PARTAGE */
+    display: flex;
+    color: #385FC4;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 600px;
+}
+
+.partage-img { /* IMAGE VALEURS : PARTAGE */
+    width: 80%;  
+}
+
+@media screen and (max-width: 1200px) {
+    .valeurs-h1 { /* TITRE 1 : NOS VALEURS */
+        font-size: 50px;
+        width: 500px;
+    }
+
+    .partage-h2 { /* TITRE 2 : PARTAGE */
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .partage-papillon {/* IMAGE PAPILLON VALEURS : PARTAGE */
+        width: 50%;
+        height: 50%;
+        margin-left: 40px;
+    }
+
+    .partage-p { /*Texte div Nos valeurs*/
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .valeurs-h1 { /* TITRE 1 : NOS VALEURS */
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .partage-h2 { /* TITRE 2 : PARTAGE */
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .partage-papillon {/* IMAGE PAPILLON VALEURS : PARTAGE */
+        width: 50%;
+        height: 50%;
+        margin-left: 60px;
+    }
+
+    .partage-p { /*Texte div Nos valeurs*/
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .div-partage { /* DIV VALEURS : PARTAGE */
+        display: flex;
+        flex-direction: column;
+        height: auto; /* ajuster la hauteur automatiquement en fonction du contenu */
+        justify-content: center; /* centrer verticalement */
+        align-items: center; /* centrer horizontalement */
+    }
+
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        flex-basis: auto !important;
+    }
+
+    .partage-txt { /* DIV H1 + H2 + PAPILLON + TEXTE */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .valeurs-h1 { /* TITRE 1 : NOS VALEURS */
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .partage-h2 { /* TITRE 2 : PARTAGE */
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .partage-papillon {/* IMAGE PAPILLON VALEURS : PARTAGE */
+        width: 50%;
+        height: 50%;
+        margin-left: 60px;
+    }
+
+    .partage-p { /*Texte div Nos valeurs*/
+        width: 300px;
+    }
+
+    .partage-img { /* IMAGE VALEURS : ECOLOGIE */
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ---------------------------- SCHEMA MAISON VALEURS ------------------------------- */
+
+.img-schema { /* Schéma : Nos valeurs maison */
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 800px) {
+    .img-schema { /* Schéma : Nos valeurs maison */
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .img-schema { /* Schéma : Nos valeurs maison */
+        width: 70%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+}
+
+/* ---------------------------- VALEURS : TECHNOLOGIE ------------------------------- */
+
+.div-techno { /* DIV VALEURS : TECHNOLOGIE */
+    /* padding: 5%; */
+    /* padding-bottom: 30px; */
+    height: 87vh;
+}
+
+.techno-txt { /* DIV H1 + H2 + PAPILLON + TEXTE */
+    font-family: 'Paytone One', sans-serif;
+    padding: 5%;
+}
+
+.techno-h2 { /* TITRE 2 : TECHNOLOGIE */
+    color: #F6CACA;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 430px;
+}
+
+.techno-papillon { /* IMAGE PAPILLON VALEURS : TECHNOLOGIE */
+}
+
+.techno-p { /* TEXTE VALEURS TECHNOLOGIE */
+    display: flex;
+    color: #385FC4;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 600px;
+}
+
+.techno-img { /* IMAGE VALEURS : TECHNOLOGIE */
+    width: 80%;  
+}
+
+@media screen and (max-width: 1200px) {
+    .techno-h2 { /* TITRE 2 : TECHNOLOGIE */
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .techno-papillon {/* IMAGE PAPILLON VALEURS : TECHNOLOGIE */
+        width: 50%;
+        height: 50%;
+        margin-left: 40px;
+    }
+
+    .techno-p { /* TEXTE VALEURS TECHNOLOGIE */
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .techno-h2 { /* TITRE 2 : TECHNOLOGIE */
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .techno-papillon {/* IMAGE PAPILLON VALEURS : TECHNOLOGIE */
+        width: 50%;
+        height: 50%;
+        margin-left: 60px;
+    }
+
+    .techno-p { /* TEXTE VALEURS TECHNOLOGIE */
+        width: 300px;
+    }
+
+    .techno-img { /* IMAGE VALEURS : ECOLOGIE */
+        width: 50%;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .div-techno { /* DIV VALEURS : PARTAGE */
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center
+    }
+
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        flex-basis: auto !important;
+    }
+
+    .techno-txt { /* DIV H1 + H2 + PAPILLON + TEXTE */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .valeurs-h1 { /* TITRE 1 : NOS VALEURS */
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .techno-h2 { /* TITRE 2 : PARTAGE */
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .techno-papillon {/* IMAGE PAPILLON VALEURS : PARTAGE */
+        width: 50%;
+        height: 50%;
+        margin-left: 60px;
+    }
+
+    .techno-p { /*Texte div Nos valeurs*/
+        width: 300px;
+    }
+
+    .techno-img { /* IMAGE VALEURS : ECOLOGIE */
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ---------------------------- VALEURS : ECOLOGIE ------------------------------- */
+
+.div-eco { /* DIV VALEURS : ECOLOGIE */
+    /* padding: 5%; */
+    /* padding-bottom: 30px; */
+    height: 87vh;
+}
+
+.eco-txt { /* DIV H1 + H2 + PAPILLON + TEXTE */
+    font-family: 'Paytone One', sans-serif;
+    padding: 5%;
+}
+
+.eco-h1 {
+    display: flex;
+    color: #385FC4;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    width: 355px;
+}
+
+.eco-h2 { /* TITRE 2 : ECOLOGIE */
+    color: #76AF53;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 343px;
+}
+
+.eco-papillon { /* IMAGE PAPILLON VALEURS : ECOLOGIE */
+}
+
+.eco-p { /* TEXTE VALEURS ECOLOGIE */
+    display: flex;
+    color: #385FC4;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 600px;
+    margin-left: 89px;
+}
+
+.eco-img { /* IMAGE VALEURS : ECOLOGIE */
+    width: 80%;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 1200px) {
+    .eco-h1 { /* TITRE 1 : NOS VALEURS */
+        font-size: 50px;
+        width: 292px;
+    }
+
+    .eco-h2 { /* TITRE 2 : ECOLOGIE */
+        font-size: 30px;
+        width: 207px;
+    }
+
+    .eco-papillon {/* IMAGE PAPILLON VALEURS : ECOLOGIE */
+        width: 50%;
+        height: 50%;
+        /* margin-left: 40px; */
+    }
+
+    .eco-p { /* TEXTE VALEURS ECOLOGIE */
+        width: 400px;
+    }
+
+    .eco-img { /* IMAGE VALEURS : ECOLOGIE */
+        margin-left: 100px;
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    .eco-h1 { /* TITRE 1 : NOS VALEURS */
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .eco-h2 { /* TITRE 2 : ECOLOGIE */
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .eco-papillon {/* IMAGE PAPILLON VALEURS : ECOLOGIE */
+        width: 50%;
+        height: 50%;
+        /* margin-left: 60px; */
+    }
+
+    .eco-p { /* TEXTE VALEURS ECOLOGIE */
+        width: 300px;
+    }
+
+    .eco-img { /* IMAGE VALEURS : ECOLOGIE */
+        width: 50%;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .div-eco {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eco-txt {
+        display: flex;
+        flex-direction: column; /* Ajustement pour mettre l'image en dessous du texte */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eco-h1 {
+        font-size: 40px;
+        margin-left: 212px;
+        width: 400px;
+    }
+
+    .eco-h2 {
+        font-size: 25px;
+        margin-left: 80px;
+    }
+
+    .eco-papillon {
+        width: 50%;
+        height: 50%;
+        margin-left: 60px;
+    }
+
+    .eco-p {
+        width: 300px;
+    }
+
+    .eco-img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ---------------------------- ADHERER ------------------------------- */
+
+.div-adherer { /*DIV soutiens*/
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 78vh;
+    padding-top: 258px;
+}
+
+.h2-adherer { /*Titre H2*/
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #385FC4;
+    text-align: center;
+}
+
+.h1-adherer { /*Tittre H1*/
+    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
+    width: 930px;
+    font-weight: 1000;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #385FC4;
+    margin-bottom: 50px;
+}
+
+.div-bouton { /*Boutons voir plus soutiens*/
+    display: flex;
+    background-color: #F0C735;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    border-radius: 72.5px;
+    height: 70px;
+    width: 300px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.wp-block-buttons>.wp-block-button {
+    display: flex;
+    padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+    .div-adherer { /*Div soutiens*/
+        height: 35vh;
+    }
+
+    .h2-adherer { /*Titre H2*/
+        font-size: 25px;
+    }
+
+    .h1-adherer { /*Tittre H1*/
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .div-bouton { /*Boutons voir plus soutiens*/
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+    }
+}
+
+/* ------------------------------------- CODE CSS VERSION 1 ---------------------------------------- */
+
+/* .inclusivité {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding: 5%;
+    padding-bottom: 0%;
+} */
+
+/* .div-inclu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+} */
+
+/* .inclu-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+} */
+
+/* .inclu-papillon{
+    width: 20%;
+    height: 20%;
+} */
+
+/* .valeurs-inclu {
+    grid-column: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+} */
+
+/* .valeurs-inclu1 h1{
+    font-size: 50px;
+} */
+
+/* .valeurs-inclu1 h3{
+    color: #F0C735;
+} */
+
+/* .inclu-img {
+    grid-column: 2 / 2;
+    width: 100%;
+} */
+
+/* ---------------------------- VALEUR TECHNOLOGIE ------------------------------- */
+
+/*.technologie {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 100vh;
+    width: 100%;
+}
+
+.techno-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.techno-papillon{
+    width: 20%;
+    height: 20%;
+}
+
+.div-techno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 100px;
+}
+
+.valeurs-techno {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+}
+
+.valeurs-techno1 h1{
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+    font-size: 50px;
+}
+
+.valeurs-techno1 h3 {
+    color: #F6CACA;
+    font-family: Paytone One, sans-serif;
+}
+
+.valeurs-techno1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.valeurs-techno2 {
+    font-size: 24px;
+}
+
+.img-techno {
+    grid-column: 2 / 2;
+    position: relative;
+} */
+
+/* ---------------------------- VALEUR ECOLOGIE ------------------------------- */
+
+/* ---------------------------- VALEUR ECOLOGIE ------------------------------- */
+
+/* .écologie {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 100vh;
+    width: 100%;
+}
+
+.div-eco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 100px;
+}
+
+.valeurs-eco{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 2;
+    background-color: #fff;
+}
+
+.wp-block-eco{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding-left: 2%;
+}
+
+.eco-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   font-family: Paytone One, sans-serif;
+}
+
+.eco-papillon{
+    width: 30%;
+    height: 30%;
+}
+
+.wp-container-eco{
+    margin: auto;
+    padding: 5%;
+}
+
+.valeurs-eco1 h1{
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+    font-size: 50px;
+}
+
+.valeurs-eco1 h3 {
+    color: #76AF53;
+    font-family: Paytone One, sans-serif;
+    margin-left: auto;
+}
+
+.valeurs-eco1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-bottom: 25px;
+    margin-left: auto;
+}
+
+.valeurs-eco2 {
+    font-size: 24px;
+}
+
+.img-eco{
+    grid-column: 1 / 2;
+} */
+
+/* #adherer {
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* .wp-block-columns.wp-block-inclu.is-layout-flex {
+    padding : 0;
+} */
+
+/* .wp-block-image.size-full.eco-papillon {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+} */
+
+/* .wp-valeurs-h1.has-large-font-size {
+    margin-bottom: 0.2em;
+} */
+
+/* .wp-block-columns.is-layout-flex {
+    gap: 0 !important;
+} */
+
+/* .div-rejoindre{ 
+    font-size: 80px;
+    font-family: Paytone One, sans-serif;
+    color: #385FC4;
+    text-align: center;
+    padding: 5%;
+} */
+
+/* @media only screen and (max-width: 1650px) {
+    .wp-eco-img {
+        padding-left: 10%;
+    }
+     
+     .wp-techno-img {
+        padding-left: 10%;
+    }
+} */
+
+/* @media only screen and (max-width: 1450px) {
+    .wp-valeurs-h1 {
+        line-height: 40px;
+    }
+} */
+
+/* @media only screen and (max-width: 1355px) {
+    .wp-valeurs-h1 {
+        font-size: 60px;
+        width: 100%;
+    }
+} */
+
+/* @media only screen and (max-width: 1250px) {
+    .wp-block-eco {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .wp-block-techno {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .wp-block-inclu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .wp-valeurs-h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .wp-eco-img {
+        padding-top: 6%;
+    }
+     
+    .wp-techno-img {
+         padding-left: 6%;
+    }
+} */
+
+/* @media only screen and (max-width: 980px) {
+    .wp-eco-img {
+        padding-right:10%;
+    }
+     
+     .wp-techno-img {
+         padding-top: 30%;
+    }
+} */
+
+/* @media only screen and (max-width: 800px) {
+    .wp-block-eco {
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+
+    .inclu-img-1 {
+        padding-top: 10%;
+    }
+} */
+
+/* ---------------------------- RESPONSIVE ------------------------------- */
+
+/* @media only screen and (max-width: 1650px) {
+    .techno-img-1 {
+        padding-top: 18%;
+    }
+
+    .div-rejoindre {
+        font-size: 50px;
+    } 
+} */
+
+/* @media only screen and (max-width: 1592px) {
+    .concept1 h1 {
+        font-size: 60px;
+    }
+
+    .concept1 p {
+        font-size: 16px;
+    }
+} */
+
+/* @media only screen and (max-width: 1450px) {
+    .inclusivité{
+        padding: 3%;
+        height: 60vh;
+     }
+ 
+     .ecologie{
+         padding: 3%;
+         height: 60vh;
+     }
+ 
+     .technologie{
+         padding: 3%;
+         height: 60vh;
+     }
+ 
+     #adherer{
+         padding: 3%;
+         height: 100vh;
+     }
+
+    .div-rejoindre {
+        font-size: 40px;
+    }
+    
+    .div-besoin{
+        font-size: 30px;
+    }
+
+    .valeurs-inclu2 p{
+       font-size: 20px;
+       font-family: Paytone One, sans-serif;
+    }
+
+    .valeurs-eco2 p{
+        font-size: 20px;
+    }
+
+    .valeurs-techno2 p{
+        font-size: 20px;
+    }
+
+    .div-inclu1{
+        gap: 50px;
+    }
+
+    .div-eco{
+        gap: 50px;
+    }
+
+    .div-techno{
+        gap: 50px;
+    }
+    .schema-inclu {
+        width: 100%;
+        padding-left: 10%;
+    }
+} */
+
+/* @media only screen and (max-width: 1300px) {
+    .div-concept1 {
+        width: 50%;
+    }
+
+    .inclusivité {
+       padding: 3%;
+       height: 60vh;
+    }
+
+    .ecologie {
+        padding: 3%;
+        height: 60vh;
+    }
+
+    .technologie {
+        padding: 3%;
+        height: 60vh;
+    }
+
+    #adherer {
+        padding: 3%;
+        height: 100vh;
+    }
+
+    .div-techno {
+        align-items: center;
+       
+    }
+
+    .div-eco {
+        align-items: center;
+    }
+
+    .div-inclu1 {
+        align-items: center;
+    }
+    
+    .img-inclu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;  
+    }
+
+    .inclu-img-1 {
+       width: 80%;
+       padding-top: 30%;
+    }
+
+    .img-eco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .img-techno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .img-eco-1 {
+        width: 100%;
+    }
+
+    .img-techno-1 {
+        width: 100%;
+    
+    }
+
+    .img-inclu-1 {
+        width: 100%;
+    }
+
+    .schema-inclu {
+        width: 100%;
+        padding-left: 10%;
+    }
+} */
+
+/* @media only screen and (max-width: 1075px) {
+    .écologie {
+        height: 60vh;
+    }
+
+    .technologie {
+        height: 60vh;
+    }
+
+    .inclusivité {
+        height: 60vh;
+        justify-content: space-evenly;
+    }
+
+    #adherer {
+        height: 60vh;
+    }
+
+    .div-concept1 {
+        width: 80%;
+    }
+    
+    .valeurs-eco h1 {
+        font-size: 35px;
+    }
+
+    .valeurs-inclu1 h3 {
+        font-size: 18px;
+    }
+
+    .inclu-img-1 {
+        width: 80%;
+        padding-top: 30%;
+     }
+
+    .valeurs-inclu1 h1 {
+        font-size: 35px;
+    }
+
+    .valeurs-eco1 h3 {
+        font-size: 18px;
+    }
+
+    .img-eco-1 {
+        width: 100%;
+    }
+
+    .valeurs-techno1 h1 {
+        font-size: 35px;
+    }
+
+    .valeurs-techno1 h3 {
+        font-size: 18px;
+    }
+
+    .techno-img-1 {
+        width: 100%;
+    }
+} */
+
+/* @media only screen and (max-width: 985px) {
+    .écologie {
+        height: 60vh;
+    }
+
+    .technologie {
+        height: 60vh;
+    }
+
+    .inclusivité {
+        height: 60vh;
+    }
+
+    #adherer {
+        height: 60vh;
+    }
+
+    .div-besoin {
+        font-size: 25px;
+    }
+
+    .div-rejoindre {
+        font-size: 30px;
+    }
+
+    .div-bouton button {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .div-adherer {
+        text-align: center;
+    }
+
+    .img-eco-1 {
+        width: 80%;
+    }
+
+    .techno-img-1 {
+        width: 80%;
+    }
+
+    .inclu-img-1 {
+        width: 80%;
+        padding-top: 40%;
+     } 
+
+    .img-inclu-1 {
+        width: 80%;
+    }
+
+    .valeurs-inclu2 p {
+        font-size: 16px;
+    }
+
+    .valeurs-eco2 p {
+        font-size: 16px;
+    }
+
+    .valeurs-techno2 p {
+        font-size: 16px;
+    }
+
+    .schema-inclu {
+        width: 100%;
+        padding-left: 14%;
+    } 
+} */
+
+/* @media screen and (max-width: 800px) {
+    main img {
+        padding-bottom: 3%;
+    }
+
+    .div-concept1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .div-concept1 h1 {
+        font-size: 50px;
+    }
+
+    .div-concept1 p {
+        font-size: 16px;
+    }
+
+    .div-inclu1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 4%;
+    }
+
+    .div-inclu2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .inclu-img-1 {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .techno-img-1 {
+        margin-inline: auto;
+    }
+
+    .div-eco {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .div-techno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .techno-img-1 {
+        padding-top: 30%;
+    }
+
+    .div-adherer {
+        padding: 20px;
+    }
+
+    .div-besoin {
+        font-size: 20px;
+    }
+
+    .div-rejoindre {
+        font-size: 40px;
+    }
+
+    .div-bouton button {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+
+    .div-adherer {
+        text-align: center;
+    }
+
+    .div-adherer div {
+        padding-bottom: 5%;
+    }
+
+    .div-besoin {
+        font-size: 20px;
+    }
+
+    .div-rejoindre {
+        font-size: 25px;
+    }
+
+    .inclusivité {
+        height: 100%;
+    }
+
+    .écologie {
+        height: 100%;
+        padding-bottom: 6%;
+    }
+    
+    .technologie {
+        height: 100%;
+    }
+        
+    .img-techno {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .techno-img-1 {
+        padding-top: 0%;
+        width: 80%;
+    }
+
+    .img-inclu-1 {
+        width: 80%;
+    }
+    
+    .img-eco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+        
+    .schema-inclu {
+        width: 100%;
+        padding-left: 8%;
+    }
+        
+    .img-schema {
+        width: 100%;
+    }
+} */

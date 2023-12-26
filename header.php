@@ -45,14 +45,13 @@
 			<?php
 			wp_nav_menu(
 				array(
-					'theme_location' => 'header-menu',
-					'menu_id'        => 'header-menu',
-					'menu-class'	 => 'header-menu',
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'menu-1',
+					'menu-class'	 => 'menu-1',
 					'menu-container' => 'nav'
 				)
 			);
 			?>
-			<button class="headSoutiens">Nous soutenir</button>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 

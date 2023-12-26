@@ -1,3 +1,5 @@
+/* PAGE NOTRE HISTOIRE */
+
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +66,7 @@ body {
     margin-left: 130px;
 }
 
-.Plus { /*Button voir plus*/
+/* .Plus {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +82,7 @@ body {
     font-weight: 600;
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
     margin-left: 130px;
-}
+} */
 
 @media screen and (max-width: 900px) {
     .imgHead { /*Image Notre histoire*/
@@ -143,7 +145,7 @@ body {
     font-family: 'Paytone One', sans-serif;
     color: #385FC4;
     font-size: 60px;
-    width: 450px;
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -172,11 +174,22 @@ body {
 
 .imgPapillon { /*Image papillon concept*/
     display: flex;
+    padding-left: 150px;
 }
 
 @media screen and (max-width: 1150px) {
     .Concept { /*Div concept page-concept.php*/
-        height: 120vh;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        height: 90vh;
+    }
+
+    .divConcept {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
     }
 
     /* .wp-block-columns {
@@ -187,6 +200,7 @@ body {
     .imgConcept-h2 { /*Titre notre concept*/
         /* display: flex; */
         font-size: 30px;
+        width: 316px;
     }
 
     /* .txtGrid {
@@ -202,6 +216,11 @@ body {
         margin-right: auto;
         width: 353px;
     }
+
+    .imgPapillon { /*Image papillon concept*/
+        display: flex;
+        margin: 0;
+    }
 }
 
 /* ---------------------------- IMAGE ------------------------------- */
@@ -211,6 +230,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh;
     height: 150vh;
     padding-top: 134px;
     background-color: white;
@@ -226,11 +246,14 @@ body {
     position: relative;
     width: 100%;
     height: 140%;
+    object-fit: cover;
+    margin-bottom: 30px;
 }
+
 
 /* ----------------------------NOUS SOUTENIR------------------------------- */
 
-.Soutenir { /*Div soutiens*/
+.Soutenir { /*DIV soutiens*/
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -276,7 +299,12 @@ body {
     font-weight: bold;
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
     text-align: center;
-    
+    align-items: center;
+    justify-content: center;
+}
+
+.wp-block-buttons>.wp-block-button {
+    display: flex;
 }
 
 @media screen and (max-width: 950px) {
@@ -339,4 +367,17 @@ body {
         width: 100%;
         height: 100%;
     }
+}
+
+.perceNeige {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.ImgPerceNeige {
+    display: flex;
+    width: 40%;
 }

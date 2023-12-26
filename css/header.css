@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 .site-header {
@@ -11,6 +13,8 @@
     width: 100%;
     background: #FFF;
     align-items: center;
+    list-style: none;
+    text-decoration: none;
 }
 
 .ping-logo {
@@ -21,7 +25,7 @@
 
 .site-branding img {
     display: flex;
-    width: 70%;
+    width: 200px;
 }
 
 .logo {
@@ -38,48 +42,68 @@
     align-items: center;
     gap: 70px;
     height: 100%;
-    width: 100%;
     margin-right: 40px;
-}
 
-.menu ul {
-    display: flex;
     list-style: none;
+    text-decoration: none;
     font-family: 'Paytone One', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    gap: 60px;
 }
 
-.menu a {
+.menu  {
     display: flex;
-    text-decoration: none;
-    color: #385FC4;
     list-style: none;
+    text-decoration: none;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-a {
+    /* display: flex; */
+    color: #385FC4;
     display: inline-block;
-    padding-bottom: 2px; /*the space for the gradient*/
     background: linear-gradient(#385FC4, #385FC4) center bottom; /*OR bottom right OR bottom left*/
-    background-size: 0% 2px; /*width:0% height:2px*/
+    background-size: 0% 3px; /*width:0% height:2px*/
     background-repeat: no-repeat; /* Don't repeat !!*/
     transition: all 0.45s;
 }
 
-.menu a:hover {
-    background-size: 100% 2px; /*width:100% height:2px*/
+.menu-a a {
+    color: #385FC4;
+}
+
+.menu-a:hover {
+    background-size: 100% 3px; /*width:100% height:2px*/
+    color: #2a4da4;
 }
 
 .headSoutiens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: #F0C735;
     border: none;
     color: white;
     border-radius: 72.5px;
     height: 45px;
-    width: 200px;
+    width: 220px;
     font-family: 'Paytone One', sans-serif;
     font-size: 20px;
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    padding: 3px;
+}
+.headSoutiens a {
+    color : white ; 
 }
 
 .entry-title {
@@ -94,6 +118,98 @@
 
 
     .main-navigation {
-        display: none;
+        /* display: none; */
+        margin: 0;
+    }
+
+    .menu-menu-container {
+        padding-bottom: 20px;
+    }
+
+    .site-header { 
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .site-branding img { 
+        padding: 0;
+    }
+
+    .site {
+        margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 1286px) {
+    .menu{
+        
+        gap: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1064px) {
+    .menu{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .menu{
+        gap: 27px;
+    }
+}
+
+
+
+/* Le responsive pour la taille de police du menu */
+@media screen and (max-width: 1285px) {
+    .menu{
+        font-size: 17px;
+        
+    }
+}
+@media screen and (max-width: 1270px) {
+    .menu{
+        font-size: 17px;
+        gap: 27px;
+       
+    }
+}
+@media screen and (max-width: 1099px) {
+    .menu{
+        font-size: 15px;
+       gap: 27px;
+    }
+}
+@media screen and (max-width: 1046px) {
+    .headSoutiens{
+        font-size: 15px;
+        width: 169px;
+       
+    }
+}
+@media screen and (max-width: 995px) {
+    .menu{
+        font-size: 13px;
+       gap: 25px;
+    }
+    .headSoutiens{
+        font-size: 14px;
+        width: 153px;
+       
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .menu{
+        gap: 20px;
+    }
+}
+
+
+
+

@@ -96,7 +96,49 @@ get_header();
 
 		</section> -->
 
+		<?php 
+		if(is_front_page()) :
+			// WP QUERY LAST 5 POSTS
+			$args = array(
+				'post_type' => 'actualites',
+				'posts_per_page' => 5,
+				'order' => 'DESC',
+				'orderby' => 'date'
+			);
+			$the_query = new WP_Query( $args );
 
+			if ( $the_query->have_posts() ) : 
+			$i = 1;
+			?>
+				<section class="actualites">
+
+					<h1 class="actusTitre">Actualités.</h1>
+
+					<div class="actusContent">
+
+				<?php while ( $the_query->have_posts() ) :
+
+					$the_query->the_post(); ?>
+
+				
+						<div class="actu <?= $i ?>">
+						<a class="lien" href="<?php the_permalink(); ?>">
+
+                          <?php the_post_thumbnail(); ?>
+						</a>
+							<h2><?php the_title(); ?></h2>
+						</div>
+
+				<?php $i++; endwhile; ?>
+					</div>
+				</section>
+			<?php endif; 
+			
+			wp_reset_postdata();
+		endif;
+		?>
+
+<!-- 
 		<section class="actualites">
 
 			<h1 class="actusTitre">Actualités.</h1>
@@ -125,9 +167,11 @@ get_header();
 
 			</div>
 
-		</section>
+		</section> -->
 			
-
+		<section class="PerceNeige">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/partenariat.png" alt="Image 1" class="imgPerceNeige"></a>
+		</section>
 
 	
 

@@ -67,12 +67,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
  
- @import url('css/header.css');
- @import url('css/page.css');
- @import url('css/footer.css');
- @import url('css/page-notre-concept.css');
- @import url('css/page-actualites.css');
+ @import url('css/header.css'); /* CSS HEADER NAVBAR */
+ @import url('css/page.css'); /* CSS PAGE ACCUEIL */
+ @import url('css/footer.css'); /* CSS FOOTER */
+ @import url('css/page-notre-concept.css'); /* CSS PAGE NOTRE HISTOIRE */
  @import url('css/single-concept.css');
+ @import url('css/page-dons.css'); /* CSS PAGE DONS */
+ @import url('css/page-valeurs.css'); /* CSS PAGE VALEURS */
+ @import url('css/wp-valeurs.css'); /* CSS PAGE VALEURS */
+
+ /* @import url('css/page-actualites.css'); */
+ /* @import url('css/actualite.css'); */
+ /* @import url('css/actualite2.css'); */
+@import url('css/archive-actualites.css'); 
+ /* @import url('css/page-actualites.css'); */
+ @import url('css/single-actualites.css');
 
  /* * {
 	outline: 1px solid red !important;

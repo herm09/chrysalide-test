@@ -19,14 +19,16 @@
 				<h2>A propos</h2>
 				
 				<ul>
-					<li><a href="">Maison Chrysalide</a></li>
-					<li><a href="">Notre concept</a></li>
-					<li><a href="">Nous soutenir</a></li>
-					<li><a href="">Actualités</a></li>
+					<li><a href="<?= get_permalink(2) ?>">Maison Chrysalide</a></li>
+					<li><a href="<?= get_permalink(17) ?>">Notre concept</a></li>
+					<li><a href="<?= get_permalink(341) ?>">Nous soutenir</a></li>
+					<li><a href="<?= get_post_type_archive_link("actualites") ?>">Actualités</a></li>
+					<li><a href="<?= get_permalink(596) ?>">Mentions légales</a></li>
 				</ul>
 				
 
 			</div>
+			
 
 			<div class="Contacter">
 				<h2>Nous contacter</h2>
@@ -42,14 +44,14 @@
 			<div class="Contact">
 				<h2>Contact</h2>
 
-				<a>33 rue de tours <br> PARIS 75033, FRANCE</a>
+				<a>34 Quai de Dion Bouton <br> Puteaux 92800, FRANCE</a>
 				
 				<!-- je veux que tu me fasse une div pour les réseaux sociaux avec facebook, twitter, tiktok et  twitter -->
 				<div class="Reseaux">
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebook"></a>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="instagram" class="insta"></a>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/tiktok.png" alt="tiktok"></a>
-					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" alt="twitter"></a>
+					<a href="https://www.facebook.com/people/Association-Maison-Chrysalide/100067052560553/"><img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" alt="facebook"></a>
+					<a href="https://www.instagram.com/association_maison_chrysalide/"><img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" alt="instagram" class="insta"></a>
+					<a href="https://www.linkedin.com/in/maison-chrysalide-5727532a5/"><img src="<?php echo get_template_directory_uri(); ?>/img/linkedin.png" alt="linkedin" class="linkedin"></a>
+					<a href="https://www.youtube.com/channel/UChbTajcxnSMQcE2Yr5yaWZw"><img src="<?php echo get_template_directory_uri(); ?>/img/youtube.png" alt="youtube" class="youtube"></a>
 				</div>
 
 			</div>

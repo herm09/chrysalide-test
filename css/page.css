@@ -1,3 +1,6 @@
+/* PAGE ACCUEIL */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +8,20 @@
     /* outline: 1px solid red !important; */
 }
 
-.entry-content {
+/* .entry-content {
     justify-content: center;
-}
+} */
 
 .post-edit-link {
     display: none;
+}
+
+body {
+    background-color: white;
+}
+
+.entry-content {
+    background-color: white;
 }
 
 /* ---------------------------- IMAGE ------------------------------- */
@@ -53,7 +64,7 @@
     margin-left: 130px;
 }
 
-.texteSurImage-p {
+.texteSurImage-p { /*Texte Maison chrysalide*/
     font-size: 20px;
     width: 550px;
     text-align: start;
@@ -62,7 +73,7 @@
     margin-left: 130px;
 }
 
-.Plus {
+.Plus { /*Nouton*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,67 +82,79 @@
     color: #385FC4;
     font-size: 25px;
     text-transform: uppercase;
-    width: 250px;
+    width: 280px;
     height: 50px;
     border-radius: 72.5px;
     border: none;
     font-weight: 600;
     box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    margin-left: 130px;
 }
 
 @media screen and (max-width: 1100px) {
-    .imgHome {
+    .imgHome { /*Image Maison chrysalide*/
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .texteSurImage {
+    /* .texteSurImage {
         margin-left: 40px;
-    }
+    } */
 
-    .texteSurImage-h2 {
+    .texteSurImage-h2 { /*Titre Maison chrysalide*/
         display: flex;
-        font-size: 30px;
+        margin: 0;
+        font-size: 35px;
         font-family: 'Paytone One', sans-serif;
-        justify-content: start;
         justify-content: center;
     }
 
-    .texteSurImage-p {
+    .texteSurImage-p { /*Texte Maison chrysalide*/
+        display: flex;
         font-size: 15px;
         width: 342px;
         font-family: 'Helvetica', sans-serif;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .Plus {
+    .Plus { /*Bouton voir plus*/
+        display: flex;
         font-size: 15px;
         height: 50px;
         width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }   
 }
 
-
 /* ----------------------------NOTRE CONCEPT------------------------------- */
 
-.concept {
-    display: flex;
-    justify-items: center;
-    padding-bottom: 20px;
-    height: 100vh;
+.concept { /*Div notre concept*/
     justify-content: center;
     align-items: center;
+    height: 150vh;
+
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
-.concept-h1 {
+.concept-h1 { /*Titre notre concept*/
     display: flex;
-    justify-content: flex-start;
-    padding-left: 130px;
     font-family: 'Paytone One', sans-serif;
     color: #385FC4;
     font-weight: 1000;
     font-size: 50px;
+    /* margin-top: 145px; */
 }
+
+/* .divsConcept {
+    display: flex;
+} */
 
 /* .divConcept {
     display: grid;
@@ -149,8 +172,21 @@
     min-height: 322px;
 } */
 
+.wp-block-columns {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-content: center;
+    align-items: center;
+}
 
-.divConcept-img {
+.columnConcept {
+    display: flex;
+}
+
+.divConcept-img { /*Images partage, eco, techno*/
     display: flex;
     width: 450px;
     height: 400px;
@@ -160,7 +196,25 @@
     padding-top: 20px;
 }
 
-.txtInclus {
+.Partage {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Technologie {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Ecologie {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.txtInclus { /*Texte Partage*/
     font-family: 'Paytone One', sans-serif;
     color: #FFE792;
     justify-content: center;
@@ -168,19 +222,19 @@
     top: 416px;
 }
 
-.txtTech {
+.txtTech { /*Texte Technologie*/
     font-family: 'Paytone One', sans-serif;
     color: #F6CACA;
     justify-content: center;
 }
 
-.txtEco {
+.txtEco { /*Texte Ecologie*/
     font-family: 'Paytone One', sans-serif;
     color: #C7E5B5;
     justify-content: center;
 }
 
-.Eco-p, .Techno-p, .Inclus-p {
+.Eco-p, .Techno-p, .Inclus-p { /*Paragraphe partage, eco, techno*/
     display: grid;
     font-family: 'Helevitica Neue', sans-serif;
     color: #385FC4;
@@ -214,23 +268,126 @@
     margin-bottom: 80px;
 } */
 
-@media screen and (max-width: 1400px) {
-    .concept {
+@media screen and (max-width: 1300px) {
+    .divConcept-img { /*Images partage, eco, techno*/
+        display: flex;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .concept { /*Div notre concept*/
         display: flex;
         flex-direction: column;
-        height: 164vh;
+        height: 159vh;
+    }
+
+    .columnConcept {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Partage {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .Technologie {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .Ecologie {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
     }
 
     .divConcept-img {
-        max-width: 100%;
+        width: 300px;
+        height: 200px;
         object-fit: cover;
     }
 }
 
+@media screen and (max-width: 582px) {
+    .wp-block-column.is-vertically-aligned-top {
+        flex-direction: column;
+        gap: 0;
+
+    } 
+    .Inclus-p { 
+        padding: 0;
+    }
+
+    .concept { 
+        margin-top: 60px;
+        height: auto;
+        
+    }
+
+    .columnConcept {
+        margin-bottom: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .concept { 
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    /* .columnConcept {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .divConcept-img {
+        display: flex;
+    }
+
+    /* .Partage {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .Technologie {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .Ecologie {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    } */
+
+    .Eco-p, .Techno-p, .Inclus-p {
+        display: flex;
+        flex-direction: column;
+        height: 236px;
+        width: 225px;
+    }
+}
+
+/* @media (min-width: 782px) {
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        flex-basis: 0;
+        flex-grow: 1;
+        display: flex;
+    }
+} */
 
 /* ----------------------------NOUS SOUTENIR------------------------------- */
 
-.soutiens {
+.soutiens { /*Div soutiens*/
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -241,60 +398,81 @@
     height: 90vh;
 }
 
-.soutiensh2 {
+.imgVague {
     display: flex;
-    font-family: 'Paytone One', sans-serif;
+    width: 100%;
+    height: 165vh;
+    object-fit: cover;
+}
+
+.soutiensh2 { /*Titre H2*/
     color: white;
-    font-size: 35px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
     font-weight: 800;
     justify-content: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.soutiensh1 {
-    font-family: 'Paytone One', sans-serif;
+.soutiensh1 { /*Tittre H1*/
     color: white;
-    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
     width: 930px;
     font-weight: 1000;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.soutenir {
+.soutenir { /*Boutons voir plus soutiens*/
     display: flex;
     background-color: #F0C735;
     border: none;
-    color: white;
-    font-family: Helvetica, sans-serif;
     border-radius: 72.5px;
     height: 70px;
     width: 300px;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.396);
-    text-align: center;
-    justify-content: center;
-
 }
 
 @media screen and (max-width: 950px) {
-    .soutiens {
-        height: 100vh;
+    .imgVague { /*Image Maison chrysalide*/
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
     }
 
-    .soutiensh1 {
+    .Soutensoutiensir { /*Div soutiens*/
+        height: 70vh;
+    }
+
+    .soutiensh2 { /*Titre H2*/
+        font-size: 25px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soutiensh1 { /*Tittre H1*/
         font-size: 40px;
         width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .soutiensh2 {
-        font-size: 25px;
-    }
-
-    .soutenir {
+    .soutenir { /*Boutons voir plus soutiens*/
         font-size: 15px;
         height: 50px;
         width: 200px;
@@ -310,6 +488,9 @@
     justify-items: center;
     height: 117vh;
     justify-content: center;
+    background-color: white;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 .actusTitre{
@@ -335,7 +516,8 @@
     color: white;
 }
 
-.actu1 {
+
+/* .actu1 {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
@@ -366,12 +548,28 @@
     background-color: #385FC4;
     width: 80%;
     text-align: center;
+} */
+
+.actu { 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+
 }
 
-/* Ajoutez ces styles CSS pour positionner le texte en bas à gauche */
-.actusContent h2 {
-    position: absolute;
+.actu h2 { 
+    color: #385FC4;
+    font-size: 18px;
+    width: 100%;
+    padding: 20px;
 }
+/* Ajoutez ces styles CSS pour positionner le texte en bas à gauche */
+/* .actusContent h2 {
+    align-self: flex-end;
+    padding: 4px;
+    text-align: left;
+} */
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -379,7 +577,69 @@
         display: flex;
         flex-direction: column;
         justify-items: center;
-        height: 109vh;
+        height: auto;
         justify-content: center;
+    } 
+    .actu {
+        width: 500px;
     }
+    
+}
+@media screen and (max-width: 810px) {
+   
+    .actu {
+        width: 500px;
+    }
+    
+}
+@media screen and (max-width: 534px) {
+   
+    .actu {
+        margin: 0 10px 0 10px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+   
+    .actu {
+        width: 300px;
+    }
+    
+}
+
+/* ----------------------------ACTUALITES------------------------------- */
+
+.PerceNeige {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.imgPerceNeige {
+    display: flex;
+    width: 40%;
+}
+
+@media screen and (max-width: 925px) {
+    .actusContent { 
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 810px) {
+    .actusContent { 
+        grid-template-columns: 1fr;
+    }
+}
+
+.actus-pp {
+    font-family: 'Helvetica', sans-serif;
+    color: #385fc4;
+    font-size: 20px;
+    padding-left: 50px;
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
 }

@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, #385FC4, rgba(255, 255, 255, 0.62)), url('images/concept-img2.png');
+    position: absolute;
+    z-index: 1;
+  }
+
+ .titre-actu {
+    height: 100vh;
+    width: 100%;
+    background-image: url('img-bg/Partners-People.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+ 
+    .bloc-presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        justify-content: center;
+        width: 45%;
+        color: #ffffff;
+        margin-left: 18%;
+        height: 55%;
+        z-index: 2;
+        font-family: Paytone One, sans-serif;
+        gap: 5%;
+    
+    }
+
+    .pres-h1 {
+        font-size: 60px;
+        font-family: Paytone One, sans-serif;
+    }
+
+    .pres-p {
+        font-size: 18px;
+        
+    }
+
+    .partie1{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5%;
+        align-items: end;
+        
+    }
+
+    .actu{
+        grid-column: 1 / 1;
+        display: flex;
+        flex-direction: column;
+        font-family: Paytone One, sans-serif;
+        
+    }
+
+    .actu-titre{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .actu-h1{
+        font-size: 50px;
+        font-family: Paytone One, sans-serif;
+        color: #385FC4;
+    }
+
+    .sous-titre{
+        font-size: 30px;
+        font-family: Paytone One, sans-serif;
+        color: #F0C735;
+        
+    }
+
+    .paragraphe1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 60%;
+        text-align: justify;
+
+    }
+
+    .paragraphe11 {
+        font-size: 20px;
+        font-family: Paytone One, sans-serif;
+        color: #385FC4;
+
+    }
+
+    .paragraphe12 {
+        font-size: 20px;
+        font-family: Paytone One, sans-serif;
+        color: #385FC4;
+    }
+
+    .img-actu{
+        grid-column: 2 / -2;
+        width: 80%;
+    }
+
+    .wp-block-img{
+        padding: 2%;
+    }
+
+    .partie2{
+        width: 100%;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5%; 
+        align-items: center;
+    }
+
+    .bloc-1{
+        grid-column: 1 / 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2%;
+
+    }
+    .sous-titre2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    .img-pap-jaune{
+        width: 40%;
+        padding-left: 5%;
+    }
+
+    .titre2{
+        font-size: 30px;
+        font-family: Paytone One, sans-serif;
+        color: #F0C735;
+        
+    }
+
+
+    .paragraphe2{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        text-align: justify;
+    }
+
+        .paragraphe2 p{
+            font-size:20px;
+            font-family: Paytone One, sans-serif;
+            color: #385FC4;
+        }
+
+    .bloc-2{
+        grid-column: 2 / -2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2%;
+
+    }
+
+    .paragraphe3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        text-align: justify;
+    }
+    
+    .paragraphe3 p{
+        font-size: 20px;
+        font-family: Paytone One, sans-serif;
+        color: #385FC4;
+    }
+
+    .plus-actu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5%;
+        align-items: flex-end;
+       
+    }
+        
+
+    .style{
+        font-size: 50px;
+        font-family: Paytone One, sans-serif;
+        color: #385FC4;
+        text-decoration: none;
+
+    }
+
+
+    @media only screen and (max-width: 1550px) {
+
+        .partie1{
+
+             align-items: center;
+
+        }
+     
+        .titre2 h2{
+           font-size: 40px;
+       }
+
+         .img-pap-jaune{
+              width: 40%;
+              padding-left: 5%;
+         }
+          .actu-h1{
+            font-size: 40px;
+         }
+       .pap-jaune{
+           width: 50%;
+        }
+
+       .img-pap-jaune{
+           width: 30%;
+           padding-left: 2%;
+           
+       }
+       .sous-titre{
+
+        padding-bottom: 2%;
+       }
+
+       .sous-titre2{
+        padding-bottom: 2%;
+       }
+        
+       
+    
+    }
+
+
+    @media only screen and (max-width: 1300px) {
+
+        .actu-h1 h1{
+            font-size: 60px;
+        }
+
+        .sous-titre h2{
+            font-size: 30px;
+        }
+
+        .titre2 h2{
+            font-size: 30px;
+        }
+
+            .partie2{
+                padding: 2%;
+            }
+
+            .paragraphe1 p{
+
+                font-size: 18px;
+            
+            }
+
+            .paragraphe2 p{
+
+                font-size: 18px;
+            
+            }
+
+            .paragraphe3 p{
+
+                font-size: 18px;
+            
+            }
+
+        .titre2{
+            font-size: 30px;
+            font-family: Paytone One, sans-serif;
+            color: #F0C735;}
+
+        .img-pap-jaune{
+            width: 30%;
+            padding-left: 2%;
+            
+        }
+
+        
+
+
+       
+    
+    }
+
+
+    @media only screen and (max-width: 1100px) {
+
+        .partie1{
+            grid-template-columns: 1fr;
+            align-items: center;
+            padding: 2%;
+            justify-items: center;
+            height: 100%;
+
+        }
+
+        .actu{
+           align-items: center;
+            
+        }
+
+        .img-actu{
+            width: 60%;
+        }
+
+        .actu-h1 h1{
+            font-size: 50px;
+        }
+
+        .sous-titre h2{
+            font-size: 25px;
+        }
+
+        .titre2 h2{
+            font-size: 25px;
+        }
+        
+        .img-pap-jaune{
+            width: 30%;
+            
+        }
+
+       
+    
+    }
+
+    @media only screen and (max-width: 900px) {
+
+       .partie2{
+        grid-template-columns: 1fr;
+       }
+        
+    .sous-titre2{
+        height: 100%;
+    }
+
+    
+     .plus-actu{
+        align-items: center;
+        padding: 2%;
+        height: 100%;
+        
+     }  
+    
+    }
+

@@ -1,0 +1,160 @@
+/* PAGE DONS */
+
+/* ---------------------------- IMAGE HEADER ------------------------------- */
+
+.imgDons { /*Image Aider*/
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.txtDons-h2 { /*Titre Comment nous aider*/
+    display: flex;
+    font-size: 70px;
+    font-family: 'Paytone One', sans-serif;
+    justify-content: start;
+    font-weight: 1000;
+    padding-bottom: 20px;
+    color: white;
+    margin-left: 130px;
+}
+
+.txtDons-p { /*Texte Comment nous aider*/
+    font-size: 20px;
+    width: 550px;
+    text-align: start;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 1000px) {
+    .imgDons { /*Image Maison chrysalide*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .txtDons-h2 { /*Titre Comment nous aider*/
+        display: flex;
+        margin: 0;
+        font-size: 35px;
+        font-family: 'Paytone One', sans-serif;
+        justify-content: center;
+    }
+
+    .txtDons-p { /*Texte Comment nous aider*/
+        display: flex;
+        font-size: 15px;
+        width: 342px;
+        font-family: 'Helvetica', sans-serif;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ---------------------------- DEVENIR PARTENAIRE ------------------------------- */
+
+.divPartenaire {
+    /* display: block;
+    margin: auto;
+    height: 100vh; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 62vh;
+    width: 100%;
+    
+}
+
+.divTitres {
+    width: 100%;
+}
+
+.partenaire-h1 {
+    display: flex;
+    color: #385FC4;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    width: 600px;
+
+}
+
+.partenaire-h2 {
+    color: #F0C735;
+    font-family: Paytone One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 430px;
+}
+
+.partenaire-img {
+
+}
+
+.Partenaire-p { /*Textes Partenaire*/
+    display: flex;
+    color: #385FC4;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 891px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .Partenaire-p {
+        width: 670px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divPartenaire {
+        height: 117vh;
+    }
+
+    .divTitres {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partenaire-h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .partenaire-h2 {
+        display: flex;
+        width: 100%;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partenaire-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50% !important;
+    }
+
+    .Partenaire-p {
+        width: 338px;
+        font-size: 18px;
+    }
+}

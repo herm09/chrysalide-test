@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    height: 294px;
+    height: 310px;
     background-color: #385FC4;
     color: white;
 }
@@ -92,6 +92,16 @@
 .insta {
     height: 34px;
     width: 34px;
+}
+
+.linkedin {
+    height: 34px;
+    width: 34px;
+}
+
+.youtube {
+    height: 35px;
+    width: 35px;
 }
 
 @media screen and (max-width: 800px) {
